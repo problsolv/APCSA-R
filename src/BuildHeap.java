@@ -121,7 +121,7 @@ public class BuildHeap {
         for (String s : str) {
             System.out.println(s);
         }
-        System.out.println(Arrays.toString(heap));
+        //System.out.println(Arrays.toString(heap));
     }
 
 

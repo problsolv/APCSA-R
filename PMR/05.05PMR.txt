@@ -1,0 +1,8 @@
+/**
+ * @author: Simon Chung
+ * @version 06/28/2022
+ * @purpose This program calculates a car's mph over 2 trips, then compares them in a table format.
+ ***************************************** P M R ******************************************
+ * This project was a bit challenging at first, since I wasn't accustomed to writing 2 programs instead of 1.
+ * Creating the class diagram was simple. Calculating the average and difference was also quite easy.
+ */

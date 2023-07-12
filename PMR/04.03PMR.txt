@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/17/2022
+ * @purpose This program calculates the probability that a family with 2
+ * children will have either the same or different gender.
+ * Download the familyMembers.txt file from FLVS and change the file name to family.txt.
+ ***************************************** P M R ******************************************
+ * Learning how to make the while loop was quite challenging, but fun when setting if statements in the loop.
+ * In the future, I hope to analyze more of these types of data that I cannot do by hand.
+ */

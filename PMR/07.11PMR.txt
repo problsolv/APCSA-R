@@ -1,0 +1,13 @@
+/**
+ * @author Simon Chung
+ * @version 09/18/22
+ * @purpose A program to carry on conversations with a human user.
+ * This version:
+ *      - Uses advanced search for keywords
+ *      - Will transform statements as well as react to keywords
+
+ * Code adapted from work by Laurie White for the College Board.
+ ***************************************** P M R ******************************************
+ * This project was easier than the last magpie project because I knew how the algorithm works.
+ * Hopefully I can continue upgrading this project to make it identical or similar to Siri, Alexa, or other types of AI.
+ */

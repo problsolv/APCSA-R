@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 09/26/2022
+ * @purpose This program uses sequential search to find song's titles, artists, and year produced and outputs
+ * the song's information if found and null if not found.
+ ***************************************** P M R ******************************************
+ * This project was harder than the last one. Using binary search to search for the titles and artists
+ * was quite hard. I still managed to use the print methods to print out the search results using a statement
+ * that prints the song information if the array element at probe and probe + 1 is equal to the target.
+ */

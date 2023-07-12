@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/08/2022
+ * @purpose This program uses 3 different methods and return functions to calculate order of operations
+ * with the numbers 10 and 5.
+ ***************************************** P M R ******************************************
+ * I used 4 different methods: a main method, addition, multiplication, and division methods to do mathematics.
+ * I enjoyed doing this program because it teaches how to make different methods, so I can run the program over and over again.
+ * I've learned functions in Python before, and now I can use it in Java too.
+ */

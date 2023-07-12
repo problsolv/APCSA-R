@@ -1,0 +1,11 @@
+/**
+ * @author Simon Chung
+ * @version 10/06/2022
+ * @purpose This program uses 2D Arrays to create objects of projectiles being launched by
+ * a catapult to calculate the range of the projectile using Math.sin and toRadians.
+ * There are 2 factors involved are the speed and the degrees that it is launched.
+ ***************************************** P M R ******************************************
+ * This project was rather easy because I already knew 2D arrays from Python. It was only a bit
+ * harder when I tried to convert the mph to mps and the meters to feet. I discovered that the
+ * calcRange() method was unnecessary, but kept it for demonstration purposes.
+ */

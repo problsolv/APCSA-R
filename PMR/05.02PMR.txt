@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/24/2022
+ * @purpose This program calculates different planets' surface gravity
+ * using print, methods, and math libraries.
+ ***************************************** P M R ******************************************
+ * This project was simple because I knew how to create different methods and return different types of variables.
+ * One challenge was simplifying the mass value to only 2-3 digits, followed by "E27". The original mass was 1.8999999999998E27, which
+ * took up lots of space, but I managed to use substrings and parsing to save space.
+ */

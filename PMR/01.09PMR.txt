@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 05/27/2022
+ * @purpose This program performs order of operations: addition, subtraction, multiplication, division,
+ * and modulus on decimals (doubles) and integers (ints).
+ ***************************************** P M R ******************************************
+ * I replaced individual values with variables representing them. I defined int and double variables and used them to replace constants in the addition, subtraction, multiplication, and division equations.
+ * Editing the concatenation in each print statement was tedious though. I constantly got errors when I forgot to put a plus sign between 2 strings.
+ */

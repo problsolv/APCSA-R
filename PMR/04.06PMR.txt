@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/22/2022
+ * @purpose This program is for users to input the number of characters they want
+ * their passwords to be, and have the system generate a password from the ASCII table for them.
+ ***************************************** P M R ******************************************
+ * So far, this project was the hardest. I originally wanted to make only one method to run everything, but I realized I had to create 3 methods to
+ * allow the user to create many passwords. Using print writer was complicated, but I used a try-catch method to prevent reimporting it.
+ * Eventually, I changed some code to make only 1 method, and I was able to remove the try-catch method which was easier to follow.
+ */

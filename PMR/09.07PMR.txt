@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 11/05/2022
+ * @purpose This program uses static methods, static variables, and constants to encrypt and
+ * decrypt messages inputted by users.
+ ***************************************** P M R ******************************************
+ * This project was a harder program to write because there were many steps involved when
+ * encrypting and decrypting the messages. I figured that using char for the arrays was easier
+ * than using String because char can account for the ASCII value of the character.
+ */

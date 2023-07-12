@@ -1,0 +1,11 @@
+/**
+ * @author Simon Chung
+ * @version 08/24/2022
+ * @purpose This program summarizes hurricane data over the past 2 decades. It shows the year of the hurricane,
+ * the hurricane name, category, pressure, and wind speed.
+ ***************************************** P M R ******************************************
+ * This project was hard because there were too many steps involved. Reading the text file was easy,
+ * but printing out the data and initiating the objects and ArrayList were hard. Calculating the minimum
+ * and maximum were also hard, so I created a static method to do it. Summarizing the categories was also hard,
+ * so I had to create an array to identify the number of category 1, 2, 3, 4, and 5 hurricanes.
+ */

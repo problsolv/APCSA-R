@@ -1,0 +1,21 @@
+/**
+ * @author Simon Chung
+ * @version 08/08/2022
+ * MAGPIE PROJECT:
+ * @purpose A program to carry on conversations with a human user.
+ * This is the initial version that:
+ *     - Uses indexOf to find strings
+ *     - Handles responding to simple words and phrases
+ * This version uses a nested if to handle default responses.
+ * Code adapted from work by Laurie White for the College Board.
+ *
+ * STRING EXPLORER:
+ * A program to allow students to try out different
+ * String methods.
+ * Code adapted from work by Laurie White for the College Board.
+ ***************************************** P M R ******************************************
+ * This project was rather harder because I didn't necessarily understand how to extract keywords from the user's input.
+ * But I figured to extract for spaces before and after the input to stop the program from extracting substrings, for example
+ * "no" from the word "know" and "mother" from "smothered". Using indexOf, substring, compareTo, toLowercase, etc. were all
+ * review from module 2.
+ */

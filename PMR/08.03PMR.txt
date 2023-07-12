@@ -1,0 +1,11 @@
+/**
+ * @author Simon Chung
+ * @version 10/01/2022
+ * @purpose This program uses sequential and binary search to find a person's
+ * name, relationship, birthday month, phone number, and email. It then outputs
+ * the song's information if found and null if not found.
+ ***************************************** P M R ******************************************
+ * This project was easier than the last 2 projects because I was already quite familiar to binary and
+ * sequential search. Searching for the birthday month was a bit challenging since I forgot that I had to
+ * search for the month using substring(0, 3) instead of substring(0, 2).
+ */

@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 05/26/2022
+ * @purpose This program includes a banner and displays contact information using print statements.
+ ***************************************** P M R ******************************************
+ * In the future, I will continue to look at examples and replicating them through codes.
+ * I will be more careful when writing lines to reduce typos.
+ * I do not completely know what printf() is, but I don't think I'll use it a lot.
+ * Hopefully, after taking this course, I can fluently code in java, so I can participate in my school competitive programming club.
+ */

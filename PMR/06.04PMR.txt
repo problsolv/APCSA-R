@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 08/04/2022
+ * @purpose This program calculates differences and averages of school supplies prices.
+ * Especially written for students going back to school for the 2022-2023 school year (including myself).
+ ***************************************** P M R ******************************************
+ * Using printf statements were quite easy. Using a for-each loop made it much easier to write values.
+ * Getting the values and prices were quite tedious since I had to type get...() multiple times.
+ */

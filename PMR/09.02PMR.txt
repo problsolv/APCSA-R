@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 10/15/2022
+ * @purpose This program uses superclasses and subclasses to create all sorts of terrain
+ * using land dimensions and physical features.
+ ***************************************** P M R ******************************************
+ * This project was quite easy because I was repeating the process of creating superclasses and subclasses.
+ * Learning hierarchy of classes and extending classes were quite easy.
+ */

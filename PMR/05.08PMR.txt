@@ -1,0 +1,9 @@
+/**
+ * @author: Simon Chung
+ * @version 07/01/2022
+ * @purpose This program calculates 3 cars' mph over 2 trips, then compares them in a table format.
+ * This is an improved version of 5.05, where I only tested the Ford.
+ ***************************************** P M R ******************************************
+ * This project was quite easy since I already had the original program as a template, so just adding 2 more cars was simple.
+ * The numbers are not made up though. I researched the average speed of each 2021 Ford, Tesla, and Honda to get these results.
+ */

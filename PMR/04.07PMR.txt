@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/22/2022
+ * @purpose This program calculates differences, sums, and to reverse strings and integers.
+ ***************************************** P M R ******************************************
+ * This project was rather challenging because creating so many methods created syntax errors.
+ * I forgot how to use return statements to the main method, but I read the 02.09 lesson again, and I remembered.
+ * I noticed that step 4 was always 1089 no matter what the starting number was.
+ * Step 5 and 6 were the same too, which made me confused first, but I did the math and proved that it would always be 1089.
+ */

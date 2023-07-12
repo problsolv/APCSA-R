@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 06/08/2022
+ * @purpose This program asks the user for their information and orders using parsing, strings, substrings,
+ * and order of operations.
+ ***************************************** P M R ******************************************
+ * This project was straightforward and only parsing and substrings were required. It was tedious writing prints and scanners for variables.
+ * In the future, I would look more into details when typing long sentences with variables.
+ */

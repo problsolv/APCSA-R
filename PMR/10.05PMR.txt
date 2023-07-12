@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 11/19/2022
+ * @purpose This program allows the user to find the nth term of the Fibonacci Sequence,
+ * where n is between 0 and 45.
+ ***************************************** P M R ******************************************
+ * This project was easy because I already understood the recursion algorithm and how the
+ * Fibonacci Sequence worked. Writing the recursion method was fairly easy because it resembled
+ * the methods in the piecewise functions.
+ */

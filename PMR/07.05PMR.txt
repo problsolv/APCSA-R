@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 08/27/2022
+ * @purpose This program calculates election results and data for the Election of 1860.
+ * It uses ArrayList, arrays and traversal and replacement methods to crete candidates and the number of votes they received.
+ ***************************************** P M R ******************************************
+ * This project was easy because using replacement and traversal methods were simple.
+ * Creating the table was also easy since I knew how to use the printf statements.
+ */

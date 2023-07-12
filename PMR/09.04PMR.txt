@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 10/30/2022
+ * @purpose This program uses superclasses and subclasses to create all sorts of rectangular
+ * 2D and 3D objects with widths, lengths, and heights.
+ ***************************************** P M R ******************************************
+ * This project was quite easy because I was repeating polymorphism and overriding methods.
+ * The 2 static methods were easy to make because I was quite familiar with them.
+ */

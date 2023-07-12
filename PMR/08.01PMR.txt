@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 09/25/2022
+ * @purpose This program uses sequential search to find song's titles, artists, and year produced and outputs
+ * the song's information if found and null if not found.
+ ***************************************** P M R ******************************************
+ * This project was easy because there were not too many songs in the array, so it was easy to keep track.
+ * Creating those static methods were easy because I had the example in the textbook as a reference.
+ * I changed it to a for-each loop instead of a while loop.
+ */

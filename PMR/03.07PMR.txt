@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/15/2022
+ * @purpose This program asks the user for their BMR and other information, then asks for how much
+ * exercise or labor they get in order to calculate their active factor or total daily energy expenditure.
+ ***************************************** P M R ******************************************
+ * This project was mostly straightforward. I used multiplication to calculate a user's total daily energy expenditure.
+ * This could be applied in real life, like those online calculators.
+ * In the future, I hope to write more of these types of programs related to users' health.
+ */

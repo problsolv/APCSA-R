@@ -1,0 +1,17 @@
+/**
+ * @author Simon Chung
+ * @version 10/07/2022
+ * PICTURE EXPLORER:
+ * @purpose This program displays images using libraries in java.
+ *
+ * INTEGER ARRAY WORKER:
+ * @purpose This program calculates the number of times an element appears,
+ * the largest integer in an array, the sum of all elements, and the total number of elements.
+ * In Activity 4, modify this class to include the methods:
+ *    getCount
+ *    getLargest
+ *    getColTotal
+ ***************************************** P M R ******************************************
+ * This project was harder than the other projects because there were quite a lot of warnings
+ * detected by IntelliJ. The integer array worker was easy because I knew how to deal with 2D arrays.
+ */

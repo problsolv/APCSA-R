@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 07/26/2022
+ * @purpose This program prints out weather and precipitation data using arrays and printf statements.
+ ***************************************** P M R ******************************************
+ * Using objects and writing the arrays were easy, but formatting the result table was difficult since using \t would make too big of a gap.
+ * Writing the methods in the implementation class was also easy, but hard at the beginning because I forgot how to use a for loop to print
+ * values in an array.
+ */

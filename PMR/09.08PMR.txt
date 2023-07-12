@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 11/08/2022
+ * @purpose This program identifies the prime integers between any 2 given integers from the user.
+ ***************************************** P M R ******************************************
+ * This project was hard at first because I did not know how to filter the prime numbers,
+ * but I thought that a number must not have any factors greater than half of itself, which
+ * made me understand the algorithm.
+ */

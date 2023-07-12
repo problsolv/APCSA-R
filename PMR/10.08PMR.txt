@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 12/01/2022
+ * @purpose This program creates cards and decks for playing purposes. Two functions are
+ * shuffling and dealing.
+ ***************************************** P M R ******************************************
+ * This lab was quite easy because working with those cads and decks were fairly easy. No major
+ * errors were found, just constant warnings about the variables and methods not being used.
+ */

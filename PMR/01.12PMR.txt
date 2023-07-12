@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 05/31/2022
+ * @purpose This program calculates the average test grades and total points for each test added.
+ ***************************************** P M R ******************************************
+ * I enjoyed using a for loop in this assignment.
+ * I prefer writing the values of each grade in an array because it's easier to keep track of.
+ * I also like using \t functions instead of repeatedly pressing space bars.
+ */

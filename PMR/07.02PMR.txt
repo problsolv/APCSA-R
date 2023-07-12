@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 08/21/2022
+ * @purpose This program calculates ingredients needed to make a cheesecake.
+ * It creates cheesecakes and use printf statements to create the output.
+ ***************************************** P M R ******************************************
+ * This project was easy because I knew how to use printf statements to print out every value.
+ * I enjoyed using each constructor in the Implementation class to calculate the amount of cream cheese, sugar, vanilla, and serving size.
+ * Also, I learned to never use those flavors to make a cheesecake.
+ */

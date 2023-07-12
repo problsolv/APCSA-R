@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 10/22/2022
+ * @purpose This program uses superclasses and subclasses to create all sorts of circular
+ * 2D and 3D objects with centers, radii, and heights.
+ ***************************************** P M R ******************************************
+ * This project was quite easy because I was repeating polymorphism many times. Writing the
+ * client class was easy because I was repeating declaring the circle class.
+ */

@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/14/2022
+ * @purpose This program asks the user for their height and weight and calculates their BMI accordingly.
+ ***************************************** P M R ******************************************
+ * This project was straightforward and easy.
+ * I had a little trouble trying to round the decimals to the nearest tenth or hundredth.
+ * But I figured I could use String.format("%.01f", variable) to round. Other than that,
+ * it was pretty easy doing the if then statements.
+ */

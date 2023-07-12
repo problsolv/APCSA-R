@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 06/03/2022
+ * @purpose This program uses Pythagorean Theorem to calculate the hypotenuse of a right triangle.
+ * The system randomly selects 2 numbers from 5-23 inclusive and uses Pythagorean Theorem
+ * to find the third side.
+ ***************************************** P M R ******************************************
+ * I used Math.pow, and Math.random to calculate the third side given the other 2 sides using a random number generator.
+ * This program is a bit simple since it only includes Pythagorean triples from 5-23. I can make the program include numbers 1-100 in the future to include more Pythagorean triples, like 11-60-61, 7-24-25, 20-21-29, etc.
+ */

@@ -1,0 +1,10 @@
+/**
+ * @author Simon Chung
+ * @version 05/31/2022
+ * @purpose This program converts an amount of money from a specific country into the equivalent
+ * currency of another country given the current exchange rate.
+ ***************************************** P M R ******************************************
+ * I used the Exchange Rate website for currency conversions.
+ * The declaration of variables took the most time, while the print statements were not very complicated.
+ * The souvenir part of the program was a little funny since it wouldn't make sense for someone to buy 8 or 16 of the same items, but easy to follow.
+ */

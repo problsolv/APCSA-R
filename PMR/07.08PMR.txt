@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 09/05/2022
+ * @purpose This program creates a grade book for instructors to use.
+ * It can add, remove, and replace students' scores and names.
+ ***************************************** P M R ******************************************
+ * This project was easy because it was almost the same as the ones before (7.04 through 7.07).
+ * Using ArrayList was quite easy since I could use the add, remove, and set method to make the table quickly.
+ */

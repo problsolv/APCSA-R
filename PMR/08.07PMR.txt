@@ -1,0 +1,8 @@
+/**
+ * @author Simon Chung
+ * @version 10/09/2022
+ * @purpose This program changes pictures' colors, shape, size, positions, and appearance.
+ ***************************************** P M R ******************************************
+ * This project was easier than 8.06 because I had the hang of what I was supposed to do.
+ * Mirroring the snowman and seagull was a bit harder because I had to find the vertical mirror point.
+ */

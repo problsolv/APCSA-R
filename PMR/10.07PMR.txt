@@ -1,0 +1,9 @@
+/**
+ * @author Simon Chung
+ * @version 12/01/2022
+ * @purpose This program uses insertion, selection, and merge sort to sort products based on
+ * their name, number, price, and quantity.
+ ***************************************** P M R ******************************************
+ * This project was easy because I already knew the sorting methods and algorithms. Merge sort
+ * was a bit mre complicated than insertion and selection, but fairly easy after a few tries.
+ */

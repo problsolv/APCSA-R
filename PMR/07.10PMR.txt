@@ -1,0 +1,8 @@
+/**
+ * @author Simon Chung
+ * @version 09/11/2022
+ * @purpose This program uses selection sort to sort movies based on their name, year produced, and production company.
+ ***************************************** P M R ******************************************
+ * This project was easy because it was just changing the insertion sort methods to selection sort.
+ * Selection sort's algorithm is easy because it swaps values based on their values. It does not swap each value, unlike insertion sort.
+ */

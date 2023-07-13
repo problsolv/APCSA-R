@@ -1,48 +1,55 @@
 import java.util.*;
+
 /**
  * TESTING PLATFORM B
  */
 public class PlatformB {
-    static void sort(int[] arr) {
-        for (int i = arr.length / 2 - 1; i >= 0; i--) heap(arr, arr.length, i);
-        for (int i = arr.length - 1; i > 0; i--) {
-            // Move current root to end
-            int temp = arr[0];
-            arr[0] = arr[i];
-            arr[i] = temp;
-            // call max heapify on the reduced heap
-            heap(arr, i, 0);
-        }
-    }
 
-    // To heapify a subtree rooted with node i which is
-    // an index in arr[]. n is size of heap
-    static void heap(int[] arr, int size, int i) {
-        int min = i;
-        int l = 2 * i + 1;
-        int r = 2 * i + 2;
+    static void heapify(int[] arr, int N, int i) {
+        int smallest = i; // Initialize largest as root
+        int l = 2 * i + 1; // left = 2*i + 1
+        int r = 2 * i + 2; // right = 2*i + 2
 
         // If left child is larger than root
-        if (l < size && arr[l] > arr[min]) min = l;
+        if (l < N && arr[l] < arr[smallest])
+            smallest = l;
 
         // If right child is larger than largest so far
-        if (r < size && arr[r] > arr[min]) min = r;
+        if (r < N && arr[r] < arr[smallest])
+            smallest = r;
 
         // If largest is not root
-        if (min != i) {
-            int temp = arr[i];
-            arr[i] = arr[min];
-            arr[min] = temp;
+        if (smallest != i) {
+            int swap = arr[i];
+            arr[i] = arr[smallest];
+            arr[smallest] = swap;
+            System.out.println(i + " " + smallest);
+
             // Recursively heapify the affected subtree
-            System.out.println(i + " " + min);
-            System.out.println(Arrays.toString(arr));
-            heap(arr, size, min);
+            heapify(arr, N, smallest);
         }
     }
 
-    public static void main(String [ ] args) {
-        int[] a = {5, 4, 3, 2, 1};
-        sort(a);
-        System.out.println(Arrays.toString(a));
+    // Function to build a Max-Heap from the Array
+    static void buildHeap(int[] arr, int N)
+    {
+        // Index of last non-leaf node
+        int startIdx = (N / 2);
+
+        // Perform reverse level order traversal
+        // from last non-leaf node and heapify
+        // each node
+        for (int i = startIdx; i >= 0; i--) {
+            heapify(arr, N, i);
+        }
+    }
+
+    // Driver Code
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int[] arr = new int[sc.nextInt()];
+        for (int i = 0; i < arr.length; i++) arr[i] = sc.nextInt();
+        buildHeap(arr, arr.length);
+        System.out.println(Arrays.toString(arr));
     }
 }

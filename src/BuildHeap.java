@@ -50,16 +50,16 @@ public class BuildHeap {
     // Returning true if the passed
     // node is a leaf node
     private boolean isLeaf(int pos) {
-        return (pos) >= size / 2;
+        return (pos + 1) > (size / 2);
     }
 
     // Method 5
     // To swap two nodes of the heap
     private void swap(int fpos, int spos) {
-        int tmp = heap[fpos];
+        int temp = heap[fpos];
 
         heap[fpos] = heap[spos];
-        heap[spos] = tmp;
+        heap[spos] = temp;
 
         str.add(fpos + " " + spos);
         System.out.println(fpos + " " + spos);
@@ -81,7 +81,7 @@ public class BuildHeap {
             else
                 swapPos = leftChild(pos);
 
-            if(heap[pos]> heap[leftChild(pos)] || heap[pos]> heap[rightChild(pos)]) {
+            if(rightChild(pos)<size && (heap[pos] >heap[leftChild(pos)] || heap[pos]> heap[rightChild(pos)])) {
                 swap(pos, swapPos);
                 minHeapify(swapPos);
             }
@@ -111,8 +111,7 @@ public class BuildHeap {
             System.out.print(
                     " PARENT : " + heap[i]
                             + " LEFT CHILD : " + heap[2 * i]
-                            + " RIGHT CHILD :" + heap[2 * i + 1]);
-
+                            + " RIGHT CHILD :" + heap[2 * i]);
             // By here new line is required
             System.out.println();
         }
@@ -121,7 +120,7 @@ public class BuildHeap {
         for (String s : str) {
             System.out.println(s);
         }
-        //System.out.println(Arrays.toString(heap));
+        System.out.println(Arrays.toString(heap));
     }
 
 

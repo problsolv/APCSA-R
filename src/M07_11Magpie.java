@@ -17,7 +17,7 @@ public class M07_11Magpie {
     public String getResponse(String statement) {
         statement = statement.trim();
         String response;
-        if (statement.length() < 1) {
+        if (statement.isEmpty()) {
             response = "Say something, please.";
         }
         else if (findKeyword(statement, "no") >= 0) {

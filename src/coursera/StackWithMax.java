@@ -1,5 +1,4 @@
 package coursera;
-
 import java.util.*;
 public class StackWithMax extends Stack<Integer> {
     Stack<Integer> max = new Stack<>();
@@ -32,7 +31,6 @@ public class StackWithMax extends Stack<Integer> {
         Scanner sc = new Scanner(System.in);
         int q = sc.nextInt();
         StackWithMax stack = new StackWithMax();
-
         for (int i = 0; i < q; i++) {
             String o = sc.next();
             if ("push".equals(o)) stack.push(sc.nextInt());

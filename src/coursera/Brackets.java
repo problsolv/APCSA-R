@@ -20,8 +20,7 @@ public class Brackets {
                 }
             }
         }
-        if (stack.isEmpty()) System.out.println("Success");
-        else System.out.println(stack.get(0).position + 1);
+        System.out.println(stack.isEmpty() ? "Success" : stack.get(0).position + 1);
     }
 
     final char type;

@@ -16,7 +16,7 @@ public class HeapSort {
         }
     }
 
-    static void heapSort(int[] arr) {
+    public static void heapSort(int[] arr) {
         for (int i = arr.length / 2 - 1; i >= 0; i--) heapify(arr, arr.length, i);
         for (int i = arr.length - 1; i > 0; i--) {
             int temp = arr[0];

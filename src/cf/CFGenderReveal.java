@@ -10,7 +10,6 @@ public class CFGenderReveal {
         for (int i = 1; i < ch.length; i++)
             if (ch[i - 1] != ch[i])
                 count++;
-        if(count % 2 == 0) System.out.println("CHAT WITH HER!");
-        else System.out.println("IGNORE HIM!");
+        System.out.println(count % 2 == 0 ? "CHAT WITH HER!" : "IGNORE HIM!");
     }
 }

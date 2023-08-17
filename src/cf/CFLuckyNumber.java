@@ -9,7 +9,6 @@ public class CFLuckyNumber {
         for (char ch : c) {
             if (ch == '7' || ch == '4') count++;
         }
-        if (count == 7 || count == 4) System.out.println("YES");
-        else System.out.println("NO");
+        System.out.println(count == 7 || count == 4 ? "YES" : "NO");
     }
 }

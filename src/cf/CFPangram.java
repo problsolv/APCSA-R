@@ -10,8 +10,7 @@ public class CFPangram {
         int c = 0;
         for (char h = 'a'; h <= 'z'; h++)
             if (s.contains(String.valueOf(h))) c++;
-        if (c == 26) out.println("YES");
-        else out.println("NO");
+        System.out.println(c == 26 ? "YES" : "NO");
         out.close();
     }
     static class FastScanner {

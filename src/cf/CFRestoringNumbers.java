@@ -9,9 +9,6 @@ public class CFRestoringNumbers {
         Arrays.sort(arr);
         long a = arr[3] - arr[0], b = arr[3] - arr[1], c = arr[3] - arr[2];
         System.out.println(a + " " + b + " " + c);
-
-
-
     }
     static class FastScanner {
         BufferedReader br;

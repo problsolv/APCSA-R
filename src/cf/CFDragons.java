@@ -29,8 +29,7 @@ public class CFDragons {
                 break;
             }
         }
-        if (bool) out.println("NO");
-        else out.println("YES");
+        System.out.println(bool ? "NO" : "YES");
         out.close();
     }
     static class FastScanner {

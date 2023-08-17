@@ -9,13 +9,13 @@ public class M10_10CreateTask {
     static int base; // base instance variable
     static String num; // num instance variable
 
-    public static boolean InvalidBase() { // Invalid base checker method
+    private static boolean InvalidBase() { // Invalid base checker method
         boolean bool = base < 2 || base > 36; // Checks if the base is between 2 and 36, inclusive
         if (bool) System.out.println("Base must be between 2 and 36"); // Prints an error statement if base is NOT between 2 and 36
         return bool; // Returns true if the base is invalid, false if it is valid
     }
 
-    public static int getValue(char ch) { // Method to identify the value of each digit 0-Z
+    private static int getValue(char ch) { // Method to identify the value of each digit 0-Z
         if (ch >= 'A' && ch <= 'Z') return (int) ch - 55; // If the character is between A and Z, return itself minus 55:
         // A represents 10 because A's ASCII value is 65 -> 65 - 55 = 10
         // B represents 11 because B's ASCII value is 66 -> 66 - 55 = 11
@@ -25,7 +25,7 @@ public class M10_10CreateTask {
         return Integer.parseInt(String.valueOf(ch)); // If the character is not a letter, it must be an integer 0-9
     }
 
-    public static String convert(boolean bool) { // Converting method
+    static String convert(boolean bool) { // Converting method
         String f; // Final returning variable
         boolean isNegative = true; // Negative number checker variable
         if (num.charAt(0) == '-') num = num.substring(1); // Extracts the negative sign out
@@ -41,7 +41,7 @@ public class M10_10CreateTask {
                 str.insert(0, ch[remainder]); // Start creating the number from the least digit value to the greatest
                 number /= base; // Divide the number by the base
             }
-            if (str.toString().equals("")) return "0"; // Checks if the number is 0
+            if (str.toString().isEmpty()) return "0"; // Checks if the number is 0
             f = str.toString(); // Assigns the converted number to the final variable
         } else { // bool false -> Convert a number from any base back to decimal
             int place_value = 1, number = 0; // A power variable and the return value

@@ -20,8 +20,7 @@ public class CFJoke {
                     }
                 }
             }
-            if (equiv) out.println("YES");
-            else out.println("NO");
+            System.out.println(equiv ? "YES" : "NO");
         }
         else out.println("NO");
         out.close();

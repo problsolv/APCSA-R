@@ -36,9 +36,7 @@ public class M04_07MathTrick {
 
     // STEP 8
     public static String reverseString(String str) {
-        if (str.length() == 0) {
-            return "";
-        }
+        if (str.isEmpty()) return "";
         return reverseString(str.substring(1)) + str.charAt(0);
     }
 

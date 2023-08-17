@@ -11,7 +11,6 @@ public class CFWord {
             if (t.equals(t.toLowerCase())) lowercase++;
             else capital++;
         }
-        if (capital <= lowercase) System.out.println(word.toLowerCase());
-        else System.out.println(word.toUpperCase());
+        System.out.println((capital <= lowercase) ? word.toLowerCase() : word.toUpperCase());
     }
 }

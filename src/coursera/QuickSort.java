@@ -16,7 +16,7 @@ public class QuickSort {
         return i + 1;
     }
 
-    static void quickSort(int[] arr, int low, int high) {
+    public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
             int part = partition(arr, low, high);
             quickSort(arr, low, part - 1);

@@ -5,19 +5,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb8551f0-2828-4cf9-8b1c-85c9b71994e6" name="Changes" comment="Coursera">
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BuildHeap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/HeapSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CFRestoringNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coursera/BuildHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coursera/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/BuildHeap.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAgain25.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBalancedArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCheapTravel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFChoosingTeams.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDesignTutorial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGeneral.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGoodArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRemoveSmallest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRibbon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSerejaDima.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoftDrink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSpy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSticks.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTwoIntegers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFYesorYes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/HashSubstring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/ParallelProcessing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/PhoneBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/QueryProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFAgain25.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFBalancedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFCheapTravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFChoosingTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFDesignTutorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFGoodArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFRemoveSmallest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFRibbon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFSerejaDima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFSoftDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFSpy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFSticks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFTwoIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFYesorYes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coursera/HashSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coursera/ParallelProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coursera/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coursera/QueryProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M04_07MathTrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M04_07MathTrick.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_05Magpie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_05Magpie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_11Magpie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_11Magpie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_08Primes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_08Primes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_08CardTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_08CardTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_08Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_08Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_10CreateTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_10CreateTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/PlatformA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/PlatformA.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/PlatformB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/PlatformB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDragons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDragons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDubstep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDubstep.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFElephant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFElephant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFFootball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFFootball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGenderReveal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGenderReveal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGuy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGuy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFInsomnia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFInsomnia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFJoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFJoke.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPangram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPangram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPhysicist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPhysicist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPrime.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRestoringNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRestoringNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSnake.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoldiers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoldiers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTranslation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTranslation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFWatermelon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFWatermelon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchDuplicates.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Brackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Brackets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/MajorityElement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuildHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/StackWithMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/StackWithMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M04_07MathTrick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M04_07MathTrick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M06_05Magpie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M06_05Magpie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M07_11Magpie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M07_11Magpie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M09_08Primes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M09_08Primes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M10_08CardTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M10_08CardTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M10_08Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M10_08Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/M10_10CreateTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M10_10CreateTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlatformA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlatformA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlatformB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlatformB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFDragons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFDragons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFDubstep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFDubstep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFElephant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFElephant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFFootball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFFootball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFGenderReveal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFGenderReveal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFGuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFGuy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFInsomnia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFInsomnia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFJoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFJoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFLuckyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFLuckyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFPangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFPangram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFPhysicist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFPhysicist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFPrime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFPrime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFRestoringNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFRestoringNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFSnake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFSnake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFSoldiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFSoldiers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFTranslation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFTranslation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFWatermelon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFWatermelon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cf/CFWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/BinarySearchDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BinarySearchDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/Brackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/MajorityElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coursera/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coursera/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/StackWithMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/StackWithMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +138,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: -1
+}</component>
   <component name="ProjectId" id="2NR40ZkHVTKWkerIi6hy8muA12H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,7 +164,7 @@
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/simon/Library/CloudStorage/OneDrive-SchoolBoardofSeminoleCounty/Archive/9/APCSA/APCSA/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/simon/Archives/9/APCSA/APCSA&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,10 +185,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/coursera" />
+      <recent name="$USER_HOME$/Library/CloudStorage/OneDrive-PlanoISD/9/APCSA/APCSA/src/cf" />
+      <recent name="$USER_HOME$/Library/CloudStorage/OneDrive-PlanoISD/9/APCSA" />
+      <recent name="$USER_HOME$/Library/CloudStorage/OneDrive-PlanoISD" />
       <recent name="$PROJECT_DIR$/.." />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$USER_HOME$/Downloads" />
+      <recent name="$USER_HOME$/IntelliJIDEA" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -95,49 +197,24 @@
       <recent name="cf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CFRestoringNumbers">
-    <configuration name="BuildHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coursera.BuildHeap" />
-      <module name="APCSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coursera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CFRestoringNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.CFRestoringNumbers" />
+  <component name="RunManager" selected="Application.TreeOrders">
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coursera.BinarySearchTree" />
       <module name="APCSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coursera.GCD" />
+    <configuration name="CFShortSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.CFShortSubstring" />
       <module name="APCSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coursera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coursera.HeapSort" />
+    <configuration name="PlatformB (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlatformB" />
       <module name="APCSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coursera.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,13 +226,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeOrders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coursera.TreeOrders" />
+      <module name="APCSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CFRestoringNumbers" />
+        <item itemvalue="Application.TreeOrders" />
+        <item itemvalue="Application.BinarySearchTree" />
+        <item itemvalue="Application.CFShortSubstring" />
         <item itemvalue="Application.PlatformB" />
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.BuildHeap" />
-        <item itemvalue="Application.GCD" />
+        <item itemvalue="Application.PlatformB (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +346,29 @@
       <workItem from="1689187877259" duration="1671000" />
       <workItem from="1689198684506" duration="13685000" />
       <workItem from="1689268370242" duration="9754000" />
-      <workItem from="1689382115827" duration="2666000" />
+      <workItem from="1689382115827" duration="4437000" />
+      <workItem from="1689451963653" duration="5143000" />
+      <workItem from="1689540728416" duration="2781000" />
+      <workItem from="1689615197809" duration="8491000" />
+      <workItem from="1689702198251" duration="8831000" />
+      <workItem from="1689798409598" duration="4997000" />
+      <workItem from="1689873698771" duration="20166000" />
+      <workItem from="1689958357113" duration="17045000" />
+      <workItem from="1690044950979" duration="11860000" />
+      <workItem from="1690143494185" duration="15118000" />
+      <workItem from="1690219774867" duration="1893000" />
+      <workItem from="1690222444547" duration="19893000" />
+      <workItem from="1690304868888" duration="6690000" />
+      <workItem from="1690391654831" duration="1955000" />
+      <workItem from="1690393767813" duration="547000" />
+      <workItem from="1690394531073" duration="10005000" />
+      <workItem from="1690429000027" duration="4319000" />
+      <workItem from="1690822738710" duration="2608000" />
+      <workItem from="1690826515383" duration="1331000" />
+      <workItem from="1690837202739" duration="2785000" />
+      <workItem from="1690906791372" duration="10952000" />
+      <workItem from="1691016300320" duration="5381000" />
+      <workItem from="1691709787267" duration="2188000" />
     </task>
     <task id="LOCAL-00031" summary="Codeforces">
       <created>1682193834249</created>
@@ -607,7 +713,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686632278893</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

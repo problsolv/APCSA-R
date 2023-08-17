@@ -7,7 +7,6 @@ public class CFSoldiers {
         for (int i = 0; i < want; i++) {
             cost += (first * (i + 1));
         }
-        if (cost < money) System.out.println(0);
-        else System.out.println(cost - money);
+        System.out.println(cost < money ? 0 : cost - money);
     }
 }

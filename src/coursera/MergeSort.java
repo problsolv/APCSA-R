@@ -34,7 +34,7 @@ public class MergeSort {
         }
     }
 
-    static void mergeSort(int[] arr, int low, int high) {
+    public static void mergeSort(int[] arr, int low, int high) {
         if (low < high) {
             int m = low + (high - low) / 2;
             mergeSort(arr, low, m);
@@ -43,9 +43,13 @@ public class MergeSort {
         }
     }
 
+    public static void mergeSort(int[] arr) {
+        mergeSort(arr, 0, arr.length - 1);
+    }
+
     public static void main(String [ ] args) {
         int[] arr = {34, 5, 56, 67, 44, 55, 57, 456, 767, 567, 45, 6, 47};
-        mergeSort(arr, 0, arr.length - 1);
+        mergeSort(arr);
         for (int i : arr) System.out.print(i + " ");
     }
 }

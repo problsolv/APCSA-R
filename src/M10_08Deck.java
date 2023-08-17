@@ -1,5 +1,4 @@
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 /**
  * @author Simon CHung
  * @version 12/01/22
@@ -37,7 +36,7 @@ public class M10_08Deck {
     * @return true if this deck is empty, false otherwise.
     */
    public boolean isEmpty() {
-      return cards.size() == 0;
+      return cards.isEmpty();
    }
 
    /**

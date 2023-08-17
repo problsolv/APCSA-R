@@ -18,8 +18,7 @@ public class CFGuy {
             }
             if (Arrays.toString(arr2).contains(String.valueOf(i))) y++;
         }
-        if (x + y == a) out.println("I become the guy.");
-        else out.println("Oh, my keyboard!");
+        System.out.println(x + y == a ? "I become the guy." : "Oh, my keyboard!");
         out.close();
     }
 

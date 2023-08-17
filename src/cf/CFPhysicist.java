@@ -9,7 +9,6 @@ public class CFPhysicist {
             y += sc.nextInt();
             z += sc.nextInt();
         }
-        if (x == 0 && y == 0 && z == 0) System.out.println("YES");
-        else System.out.println("NO");
+        System.out.println((x == 0 && y == 0 && z == 0) ? "YES" : "NO");
     }
 }

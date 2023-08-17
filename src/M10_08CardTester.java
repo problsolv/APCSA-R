@@ -3,8 +3,7 @@
  * @version 12/01/22
  * @purpose This is a class that tests the Card class.
  */
-public class M10_08CardTester
-{
+public class M10_08CardTester {
    /**
     * The main method in this class checks the Card operations for consistency.
     * @param args is not used.

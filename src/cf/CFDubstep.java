@@ -5,9 +5,7 @@ public class CFDubstep {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
-        String s = sc.next();
-        s = s.replace("WUB", " ");
-        out.println(s);
+        out.println(sc.next().replace("WUB", " "));
         out.close();
     }
     static class FastScanner {

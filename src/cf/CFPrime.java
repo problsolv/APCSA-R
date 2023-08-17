@@ -18,8 +18,7 @@ public class CFPrime {
         }
         for (int i = 3; i < b.length; i += 2) if (b[i]) h.add((long)i * i);
         for (long l : a) {
-            if (h.contains(l)) System.out.println("YES");
-            else System.out.println("NO");
+            System.out.println(h.contains(l) ? "YES" : "NO");
         }
     }
 

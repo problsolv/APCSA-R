@@ -4,14 +4,13 @@ import java.util.Scanner;
  */
 public class PlatformA {
     static int base;
-
-    public static boolean InvalidBase() {
+    private static boolean InvalidBase() {
         boolean bool = base > 36 || base < 2;
         if (bool) System.out.println("Base must be between 2 and 36");
         return bool;
     }
 
-    public static String convert(int num, int orig) {
+    private static String convert(int num, int orig) {
         char[] ch = {'0', '1', '2', '3', '4', '5', '6', '7', '8',
                 '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
                 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
@@ -23,23 +22,23 @@ public class PlatformA {
         return convert(num / base, orig) + ch[num % base];
     }
 
-    public static String convert(int num) {
+    static String convert(int num) {
         return convert(Math.abs(num), num);
     }
 
-    public static int getValue(char ch) {
+    private static int getValue(char ch) {
         if (ch >= 'A' && ch <= 'Z') return (int) ch - 55;
         return Integer.parseInt(String.valueOf(ch));
     }
 
-    public static String revert(String num, int place_value, int fin) {
-        if (num.length() == 0) return String.valueOf(fin);
+    private static String revert(String num, int place_value, int fin) {
+        if (num.isEmpty()) return String.valueOf(fin);
         if (getValue(num.charAt(num.length() - 1)) >= base) return "invalid";
         fin += getValue(num.charAt(num.length() - 1)) * place_value;
         return revert(num.substring(0, num.length() - 1), place_value * base, fin);
     }
 
-    public static String revert(String num) {
+    static String revert(String num) {
         String str;
         if (num.charAt(0) == '-') str = "-" + revert(num.substring(1), 1, 0);
         else str = revert(num, 1, 0);
@@ -57,7 +56,6 @@ public class PlatformA {
             System.out.println("D - Directly convert a number from a base to another");
             System.out.println("U - Count from a minimum to a maximum value using any base");
             System.out.println("Q - Quit");
-
             String response = sc.next().toUpperCase();
             if (response.equals("C")) {
                 System.out.println("What decimal number do you want to convert?");

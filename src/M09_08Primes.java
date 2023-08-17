@@ -28,7 +28,7 @@ public class M09_08Primes {
     }
 
     public String toString() {
-        if (primes.size() == 0) {
+        if (primes.isEmpty()) {
             return "There are no prime numbers between " + min + " and " + max + ".";
         }
         StringBuilder str = new StringBuilder("There are " + primes.size() + " prime numbers between " + min + " and " + max + ". They are:\n");

@@ -53,7 +53,7 @@ public class Packages {
 
             if (finishTime.size() == size) return new Response(true, -1);
 
-            if (finishTime.size() == 0) {
+            if (finishTime.isEmpty()) {
                 finishTime.add(request.arrivalTime + request.processTime);
                 return new Response(false, request.arrivalTime);
             }

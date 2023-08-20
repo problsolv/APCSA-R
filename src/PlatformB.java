@@ -1,35 +1,12 @@
-import java.util.Scanner;
+import java.util.*;
 /**
  * TESTING PLATFORM B
  */
 public class PlatformB {
     public static void main(String[ ] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        System.out.println(f(a));
-        System.out.println(fa(a));
-        System.out.println(faa(a));
-        sc.close();
-    }
-
-    static long f(int x) {
-        if (x <= 1) return 0;
-        long[] a = new long[x];
-        a[1] = 1;
-        for (int i = 2; i < a.length; i++) {
-            a[i] = a[i - 1] + a[i - 2];
+        while (sc.hasNext()) {
+            System.out.println(sc.next().matches("^(([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.){3}([01]?\\d\\d?|2[0-4]\\d|25[0-5])$"));
         }
-        return a[x - 1];
-    }
-
-    static long fa(int x) {
-        if (x <= 0) return 0;
-        if (x <= 2) return x - 1;
-        return fa(x - 1) + fa(x - 2);
-    }
-
-    static long faa(int x) {
-        if (x <= 2) return x - 1;
-        return faa(x - 1) + faa(x - 2);
     }
 }

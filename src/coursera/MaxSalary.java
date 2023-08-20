@@ -3,7 +3,7 @@ import java.util.*;
 public class MaxSalary {
     static String maxSalary(ArrayList<Integer> nums) {
         StringBuilder salary = new StringBuilder();
-        while (nums.size() > 0) {
+        while (!nums.isEmpty()) {
             int max = Integer.MIN_VALUE, maxIndex = 0;
             for (int i = 0; i < nums.size(); i++) {
                 if (better(nums.get(i), max)) {

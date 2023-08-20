@@ -8,6 +8,7 @@ public class PlatformB {
         int a = sc.nextInt();
         System.out.println(f(a));
         System.out.println(fa(a));
+        System.out.println(faa(a));
         sc.close();
     }
 
@@ -25,5 +26,10 @@ public class PlatformB {
         if (x <= 0) return 0;
         if (x <= 2) return x - 1;
         return fa(x - 1) + fa(x - 2);
+    }
+
+    static long faa(int x) {
+        if (x <= 2) return x - 1;
+        return faa(x - 1) + faa(x - 2);
     }
 }

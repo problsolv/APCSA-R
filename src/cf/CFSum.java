@@ -1,10 +1,15 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CF {
+public class CFSum {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-
+        int a = sc.nextInt();
+        for (int i = 0; i < a; i++) {
+            int[] r = {sc.nextInt(), sc.nextInt(), sc.nextInt()};
+            Arrays.sort(r);
+            System.out.println((r[0] + r[1] == r[2]) ? "YES" : "NO");
+        }
     }
     static class FastScanner {
         BufferedReader br;

@@ -1,11 +1,12 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CF {
+public class CFBacteria {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-
+        System.out.println(Integer.toBinaryString(sc.nextInt()).replace("0", "").length());
     }
+
     static class FastScanner {
         BufferedReader br;
         StringTokenizer st;

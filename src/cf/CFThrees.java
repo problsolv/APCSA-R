@@ -1,10 +1,13 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CF {
+public class CFThrees {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-
+        ArrayList<Integer> n = new ArrayList<>();
+        for (int i = 1; i <= 1666; i++) if (i % 3 != 0 && i % 10 != 3) n.add(i);
+        int a = sc.nextInt();
+        for (int i = 0; i < a; i++) System.out.println(n.get(sc.nextInt() - 1));
     }
     static class FastScanner {
         BufferedReader br;

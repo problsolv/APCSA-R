@@ -1,10 +1,15 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CF {
+public class CFMarathon {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-
+        int a = sc.nextInt();
+        for (int i = 0; i < a; i++) {
+            int b = sc.nextInt(), in = 0;
+            for (int j = 0; j < 3; j++) if (sc.nextInt() > b) in++;
+            System.out.println(in);
+        }
     }
     static class FastScanner {
         BufferedReader br;

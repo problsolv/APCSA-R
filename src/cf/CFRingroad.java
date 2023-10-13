@@ -1,10 +1,18 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CF {
+public class CFRingroad {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-
+        long n = sc.nextInt(), t = 0;
+        int[] m = new int[sc.nextInt()];
+        for (int i = 0; i < m.length; i++) m[i] = sc.nextInt();
+        t += m[0] - 1;
+        for (int i = 1; i < m.length; i++) {
+            if (m[i - 1] > m[i]) t += n - m[i - 1] + m[i];
+            else t += m[i] - m[i - 1];
+        }
+        System.out.println(t);
     }
     static class FastScanner {
         BufferedReader br;

@@ -1,10 +1,13 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CF {
+public class CFBank {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-
+        int a = sc.nextInt(), n = a;
+        if (a / 10 > n) n = a / 10;
+        if (a % 10 + (a / 100) * 10 > n) n = a % 10 + (a / 100) * 10;
+        System.out.println(n);
     }
     static class FastScanner {
         BufferedReader br;

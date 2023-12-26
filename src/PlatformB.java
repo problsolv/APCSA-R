@@ -1,16 +1,26 @@
-import java.util.regex.*;
+import java.util.*;
 /**
  * TESTING PLATFORM B
  */
 public class PlatformB {
     public static void main(String [ ] args) {
-        String pattern = "^(([01]?\\d\\d?|2[0-4]\\d|25[0-5])\\.){3}([01]?\\d\\d?|2[0-4]\\d|25[0-5])$";
-        System.out.println("192.168.1.255".matches(pattern));
-        String regexThree = "n";
-        Pattern pThree = Pattern.compile(regexThree);
-        Matcher mThree = pThree.matcher("simon.chung.1");
-        mThree.find(6);
-        System.out.println(mThree.start());
-        System.out.println(mThree.end());
+        Scanner sc = new Scanner(System.in);
+        double m = (7 - Math.max(sc.nextInt(), sc.nextInt())) / 6.0;
+        System.out.println(convertDecimalToFraction(m));
+    }
+    static private String convertDecimalToFraction(double x) {
+        if (x < 0) return "-" + convertDecimalToFraction(-x);
+        double tolerance = 1.0E-6;
+        double h1 = 1, h2 = 0, k1 = 0, k2 = 1, b = x;
+        do {
+            double a = Math.floor(b), aux = h1;
+            h1 = a * h1 + h2;
+            h2 = aux;
+            aux = k1;
+            k1 = a * k1 + k2;
+            k2 = aux;
+            b = 1 / (b - a);
+        } while (Math.abs(x - h1 / k1) > x * tolerance);
+        return (int) h1 + "/" + (int) k1;
     }
 }

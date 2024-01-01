@@ -5,356 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb8551f0-2828-4cf9-8b1c-85c9b71994e6" name="Changes" comment="Coursera">
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBlackSquare.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCodeforceCheck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDiceRoll.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFEvenArray.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFFootballV2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFMedium.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearTransportation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPlusMinus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFBlackSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFBoringApartments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFCodeforceCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFDiceRoll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFDistracted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFEvenArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFFootballV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFMedium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFNewYearTransportation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFPlusMinus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cf/CFPlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CFFence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFKn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFMaxGCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFMinimalSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cf/CFPanoramix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M01_04StudentContactCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M01_04StudentContactCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M01_09Doubles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M01_09Doubles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M01_12Grades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M01_12Grades.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M01_13Currency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M01_13Currency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M02_03Pythagorean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M02_03Pythagorean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M02_09Methods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M02_09Methods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M02_10OnlinePurchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M02_10OnlinePurchase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M03_05BMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M03_05BMI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M03_07TDEE.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M03_07TDEE.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M04_03FamilyStructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M04_03FamilyStructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M04_06SecretPasscode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M04_06SecretPasscode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M04_07MathTrick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M04_07MathTrick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M05_02PlanetGravity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M05_02PlanetGravity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M05_05Ford.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M05_05Ford.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M05_05FordTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M05_05FordTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M05_08Cars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M05_08Cars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M05_08CarsTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M05_08CarsTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_02WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_02WeatherData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_02WeatherDataTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_02WeatherDataTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_04BTSShop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_04BTSShop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_04BTSShopTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_04BTSShopTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_05Magpie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_05Magpie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_05MagpieTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_05MagpieTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M06_05StringExplorer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M06_05StringExplorer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_02Cheesecake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_02Cheesecake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_02CheesecakeTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_02CheesecakeTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_03Hurricane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_03Hurricane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_03HurricaneTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_03HurricaneTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_04CandidatesTesterV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_04CandidatesTesterV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_04_07Candidates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_04_07Candidates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_05CandidatesTesterV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_05CandidatesTesterV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_06CandidatesTesterV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_06CandidatesTesterV3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_07CandidatesTesterV4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_07CandidatesTesterV4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_08Gradebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_08Gradebook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_08GradebookTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_08GradebookTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_09MovieTesterV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_09MovieTesterV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_09_10Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_09_10Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_10MovieTesterV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_10MovieTesterV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_11Magpie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_11Magpie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M07_11MagpieTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M07_11MagpieTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M08_01MusicTesterV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M08_01MusicTesterV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M08_01_02Music.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M08_01_02Music.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M08_02MusicTesterV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M08_02MusicTesterV2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M08_03Contacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M08_03Contacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M08_03ContactsTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M08_03ContactsTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M08_05Catapult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M08_05Catapult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M08_05CatapultTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M08_05CatapultTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_02Forest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_02Forest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_02LandTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_02LandTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_02Mountain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_02Mountain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_02Terrain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_02Terrain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_02WinterMountain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_02WinterMountain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_03Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_03Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_03CircleTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_03CircleTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_03Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_03Cylinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_03Oval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_03Oval.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_03OvalCylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_03OvalCylinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_04Box.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_04Box.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_04Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_04Cube.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_04Gift.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_04Gift.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_04Package.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_04Package.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_04Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_04Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_04RectangleTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_04RectangleTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_07CaesarDecrypter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_07CaesarDecrypter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_07CaesarEncrypter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_07CaesarEncrypter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_07CaesarTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_07CaesarTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_08Primes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_08Primes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M09_08PrimesTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M09_08PrimesTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_05Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_05Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_05FibonacciTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_05FibonacciTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_07Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_07Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_07ProductsTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_07ProductsTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_08Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_08Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_08CardTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_08CardTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_08Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_08Deck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_08DeckTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_08DeckTester.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/M10_10CreateTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M10_10CreateTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/PlatformA.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/PlatformA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/PlatformB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/PlatformB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CF$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CF$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFAEqualsB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAEqualsB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFAccommodation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAccommodation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFAgain25$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAgain25$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFAgain25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAgain25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFAntonDanik.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAntonDanik.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFAntonandLetters$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAntonandLetters$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFAntonandLetters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFAntonandLetters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBacteria$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBacteria$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBacteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBacteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBalancedArray$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBalancedArray$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBalancedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBalancedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBank.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBears.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBears.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBits.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBoredom$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBoredom$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBoredom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBoredom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFBorze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFBorze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFCandies$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCandies$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFCandies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCandies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFCapitalization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCapitalization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFCapsLock$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCapsLock$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFCapsLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCapsLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFChatRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFChatRoom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFCheapTravel$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCheapTravel$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFCheapTravel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFCheapTravel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFChoosingTeams$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFChoosingTeams$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFChoosingTeams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFChoosingTeams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDesignTutorial$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDesignTutorial$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDesignTutorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDesignTutorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDivisibility$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDivisibility$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDivisibility.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDivisibility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDivision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDivision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDomino.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDomino.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDontCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDontCount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDragons$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDragons$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDragons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDragons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDrinks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDrinks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDubstep$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDubstep$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFDubstep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFDubstep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFEasyProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFEasyProblem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFElephant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFElephant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFEquity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFEquity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFEvenOdds.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFEvenOdds.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFExpression$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFExpression$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFFastMathematician$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFFastMathematician$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFFastMathematician.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFFastMathematician.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFFence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFFence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFFootball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFFootball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGames$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGames$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGames.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGames.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGenderReveal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGenderReveal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGeneral$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGeneral$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGeneral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGeneral.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGoodArray$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGoodArray$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGoodArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGoodArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGravityFlip$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGravityFlip$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGravityFlip.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGravityFlip.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGuy$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGuy$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFGuy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFGuy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHQ$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHQ$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHelpfulMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHelpfulMath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHipster$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHipster$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHipster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHipster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHorseshoe$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHorseshoe$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHorseshoe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHorseshoe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHulk$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHulk$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFHulk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFHulk.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFIQTest$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFIQTest$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFIQTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFIQTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFIncreasingSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFIncreasingSequence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFInsomnia$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFInsomnia$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFInsomnia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFInsomnia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFInterestingDrink$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFInterestingDrink$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFInterestingDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFInterestingDrink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFJoke$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFJoke$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFJoke.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFJoke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFKefaFirstSteps$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFKefaFirstSteps$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFKefaFirstSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFKefaFirstSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLanterns$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLanterns$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLanterns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLanterns.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLongWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLongWords.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLottery$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLottery$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLottery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLottery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyDivision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyDivision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyTicket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFLuckyTicket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFMagnets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFMagnets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFMarathon$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFMarathon$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFMarathon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFMarathon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFMatrix.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFMishka$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFMishka$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFMishka.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFMishka.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearFriends$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearFriends$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearFriends.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearFriends.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearParty$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearParty$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearParty.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFNewYearParty.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFNextRound.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFNextRound.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFOddDivisor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFOddDivisor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPangram$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPangram$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPangram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPangram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPerfectSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPerfectSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPhysicist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPhysicist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolice$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolice$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolyhedrons$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolyhedrons$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolyhedrons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPolyhedrons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPresents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPresents.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPrime$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPrime$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPrime.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPrime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPuzzles$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPuzzles$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFPuzzles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFPuzzles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRegistration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRemoveSmallest$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRemoveSmallest$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRemoveSmallest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRemoveSmallest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRequiredRemainder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRequiredRemainder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRestoringNumbers$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRestoringNumbers$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRestoringNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRestoringNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRibbon$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRibbon$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRibbon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRibbon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRigged.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRigged.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRingroad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRingroad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRoundNumbers$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRoundNumbers$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFRoundNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFRoundNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSerejaDima$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSerejaDima$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSerejaDima.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSerejaDima.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFShortSubstring$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFShortSubstring$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFShortSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFShortSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFShovel$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFShovel$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFShovel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFShovel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSnake$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSnake$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSnake.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSnake.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoftDrink$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoftDrink$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoftDrink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoftDrink.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoldiers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSoldiers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSpy$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSpy$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSpy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSpy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSticks$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSticks$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSticks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSticks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFStones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFStones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFStringTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFStringTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSum$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSum$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTaxi$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTaxi$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTaxi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTaxi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTeam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTeam.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTeamOlympiad$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTeamOlympiad$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTeamOlympiad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTeamOlympiad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTheatreSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTheatreSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFThreeThreadlets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFThreeThreadlets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFThrees$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFThrees$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFThrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFThrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTranslation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTranslation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTwins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTwins.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTwoIntegers$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTwoIntegers$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFTwoIntegers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFTwoIntegers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFUsername$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFUsername$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFUsername.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFUsername.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFWatermelon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFWatermelon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFWord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFWrongSubtraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFWrongSubtraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFYears.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFYears.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFYesorYes$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFYesorYes$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/CFYesorYes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/CFYesorYes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/StringRep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/StringRep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/combine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/combine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/notes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/notes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/sequel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/sequel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/shapeshifter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/shapeshifter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/stones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/stones.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchDuplicates.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree$Triple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree$Triple.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Brackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Brackets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BuildHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BuildHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/CarFueling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/CarFueling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Change.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Change.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/ChangeDP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/ChangeDP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/DPKnapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/DPKnapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/DotProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/DotProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/EditDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/EditDistance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Fibonacci.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/FibonacciHuge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/FibonacciHuge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/FractionalKnapsack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/FractionalKnapsack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/GCD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/HashSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/HashSubstring.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/LCM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/LCM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/LCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/LCS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/MajorityElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/MaxProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/MaxProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/MaxSalary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/MaxSalary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages$Buffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages$Buffer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages$Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages$Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages$Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages$Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Packages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/ParallelProcessing$Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/ParallelProcessing$Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/ParallelProcessing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/ParallelProcessing.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Parentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Parentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/PhoneBook$Contact.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/PhoneBook$Contact.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/PhoneBook$Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/PhoneBook$Query.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/PhoneBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/PhoneBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/PrimitiveCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/PrimitiveCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/QueryProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/QueryProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/StackWithMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/StackWithMax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Sum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/TreeOrders$FastScanner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/TreeOrders$FastScanner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/TreeOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/TreeOrders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlatformA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlatformA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PlatformB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlatformB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cf/CFShortSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFShortSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/BinarySearchDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BinarySearchDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/Brackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/BuildHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BuildHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/CarFueling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/CarFueling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/Change.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/Change.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/DPKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/DPKnapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/DotProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/DotProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/EditDistance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/FibonacciHuge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/FibonacciHuge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/FractionalKnapsack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/FractionalKnapsack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/HashSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/HashSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/LCM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/LCM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/LCS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/LCS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/MajorityElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/MajorityElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/MaxProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/MaxProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/MaxSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/MaxSalary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/Packages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/Packages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/Parentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/PhoneBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/PrimitiveCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/PrimitiveCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/QueryProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/QueryProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/StackWithMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/StackWithMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coursera/TreeOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/TreeOrders.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -411,7 +67,13 @@
     "Application.CF.executor": "Run",
     "Application.CFBoringApartments.executor": "Run",
     "Application.CFDistracted.executor": "Run",
+    "Application.CFFence.executor": "Run",
+    "Application.CFKn.executor": "Run",
+    "Application.CFMaxGCD.executor": "Run",
+    "Application.CFMinimalSquare.executor": "Run",
+    "Application.CFPanoramix.executor": "Run",
     "Application.CFPlusOne.executor": "Run",
+    "Application.M10_10CreateTask.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -457,49 +119,37 @@
       <recent name="cf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CFBoringApartments">
-    <configuration name="CF (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.CF" />
-      <module name="APCSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.CF" />
-      <module name="APCSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CFBoringApartments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.CFBoringApartments" />
+  <component name="RunManager" selected="Application.CFFence">
+    <configuration name="CFFence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CFFence" />
       <module name="APCSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CFDistracted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.CFDistracted" />
+    <configuration name="CFKn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.CFKn" />
       <module name="APCSA" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CFPlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.CFPlusOne" />
+    <configuration name="CFMaxGCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.CFMaxGCD" />
+      <module name="APCSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CFMinimalSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.CFMinimalSquare" />
+      <module name="APCSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CFPanoramix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cf.CFPanoramix" />
       <module name="APCSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -507,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CFBoringApartments" />
-        <item itemvalue="Application.CFPlusOne" />
-        <item itemvalue="Application.CFDistracted" />
-        <item itemvalue="Application.CF (4)" />
-        <item itemvalue="Application.CF" />
+        <item itemvalue="Application.CFFence" />
+        <item itemvalue="Application.CFKn" />
+        <item itemvalue="Application.CFPanoramix" />
+        <item itemvalue="Application.CFMinimalSquare" />
+        <item itemvalue="Application.CFMaxGCD" />
       </list>
     </recent_temporary>
   </component>
@@ -651,7 +301,8 @@
       <workItem from="1700971716576" duration="4132000" />
       <workItem from="1703549419639" duration="3827000" />
       <workItem from="1703553436267" duration="1887000" />
-      <workItem from="1703563356150" duration="1888000" />
+      <workItem from="1703563356150" duration="2651000" />
+      <workItem from="1703888606753" duration="5719000" />
     </task>
     <task id="LOCAL-00031" summary="Codeforces">
       <created>1682193834249</created>
@@ -996,7 +647,7 @@
       <option name="project" value="LOCAL" />
       <updated>1686632278893</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/APCSA/CFFence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/CFFence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/M01_04StudentContactCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M01_04StudentContactCard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/M01_09Doubles.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M01_09Doubles.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/M01_12Grades.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/M01_12Grades.class" afterDir="false" />
@@ -221,6 +220,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/sequel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/sequel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/shapeshifter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/shapeshifter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/cf/stones.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/cf/stones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BaseConvert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BaseConvert.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearch.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchDuplicates.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchDuplicates.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/BinarySearchTree.class" afterDir="false" />
@@ -254,10 +254,12 @@
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/StackWithMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/StackWithMax.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/Sum.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/APCSA/coursera/TreeOrders.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/APCSA/coursera/TreeOrders.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlatformA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlatformA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PlatformB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlatformB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cf/CFDiceRoll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFDiceRoll.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cf/CFDistracted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFDistracted.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cf/CFShortSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cf/CFShortSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coursera/BaseConvert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BaseConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coursera/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coursera/BinarySearchDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/BinarySearchDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coursera/Brackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coursera/Brackets.java" afterDir="false" />
@@ -348,6 +350,7 @@
     &quot;Application.CFPanoramix.executor&quot;: &quot;Run&quot;,
     &quot;Application.CFPlusOne.executor&quot;: &quot;Run&quot;,
     &quot;Application.M10_10CreateTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlatformA.executor&quot;: &quot;Run&quot;,
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -369,7 +372,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -393,7 +396,7 @@
       <recent name="cf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CFFence">
+  <component name="RunManager" selected="Application.PlatformA">
     <configuration name="CFFence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CFFence" />
       <module name="APCSA" />
@@ -403,13 +406,6 @@
     </configuration>
     <configuration name="CFKn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cf.CFKn" />
-      <module name="APCSA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CFMaxGCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cf.CFMaxGCD" />
       <module name="APCSA" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -429,13 +425,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlatformA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlatformA" />
+      <module name="APCSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlatformA" />
         <item itemvalue="Application.CFFence" />
         <item itemvalue="Application.CFKn" />
         <item itemvalue="Application.CFPanoramix" />
         <item itemvalue="Application.CFMinimalSquare" />
-        <item itemvalue="Application.CFMaxGCD" />
       </list>
     </recent_temporary>
   </component>
@@ -579,6 +582,12 @@
       <workItem from="1703888606753" duration="5888000" />
       <workItem from="1704609374134" duration="17000" />
       <workItem from="1705287903806" duration="2145000" />
+      <workItem from="1706971417155" duration="224000" />
+      <workItem from="1706971764644" duration="1302000" />
+      <workItem from="1706977879039" duration="1881000" />
+      <workItem from="1707001844306" duration="414000" />
+      <workItem from="1707002945335" duration="516000" />
+      <workItem from="1707005166793" duration="76000" />
     </task>
     <task id="LOCAL-00031" summary="Codeforces">
       <created>1682193834249</created>

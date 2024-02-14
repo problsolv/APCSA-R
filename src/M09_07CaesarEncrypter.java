@@ -7,14 +7,14 @@
  */
 public class M09_07CaesarEncrypter {
     private static int myKey;
-    public static final char[] alphabet = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+    public static final char[] ALPHABET = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
     public M09_07CaesarEncrypter(int key) {
         myKey = 26 - key;
     }
 
     public void printAlphabet() {
-        for (char letter : alphabet) {
+        for (char letter : ALPHABET) {
             System.out.print(letter + " ");
         }
         System.out.println();

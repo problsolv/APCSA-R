@@ -14,12 +14,8 @@ public class M07_03HurricaneTester {
     public static double MinMax(ArrayList<Double> a, boolean bool) {
         double min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
         for (double element : a) {
-            if (element < min) {
-                min = element;
-            }
-            if (element > max) {
-                max = element;
-            }
+            min = Math.min(element, min);
+            max = Math.max(element, max);
         }
         // bool true -> return min, false -> return max
         return (bool) ? min : max;
@@ -27,7 +23,7 @@ public class M07_03HurricaneTester {
 
     public static void main(String [ ] args) throws IOException {
         int numValues = 0;
-        File file = new File("hurricanedata.txt");
+        File file = new File("/Users/simon/Library/CloudStorage/OneDrive-PlanoISD/9/APCSA/APCSA/hurricanedata.txt");
         Scanner inFile = new Scanner(file);
         // reading the text file
         while (inFile.hasNextLine()) {
@@ -137,17 +133,7 @@ public class M07_03HurricaneTester {
         System.out.println("\nSummary of Categories:");
         int[] cats = new int[5];
         for (double category : categoryarray) {
-            if (category == 1) {
-                cats[0]++;
-            } else if (category == 2) {
-                cats[1]++;
-            } else if (category == 3) {
-                cats[2]++;
-            } else if (category == 4) {
-                cats[3]++;
-            } else {
-                cats[4]++;
-            }
+            cats[(int)category - 1]++;
         }
         for (int i = 0; i < cats.length; i++) {
             System.out.printf("%5s %d: %d%n", "Cat", i + 1, cats[i]);

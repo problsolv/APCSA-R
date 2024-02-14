@@ -10,7 +10,7 @@ import java.io.PrintWriter;
  */
 public class M04_06SecretPasscode {
     public static void main(String [ ] args) throws IOException {
-        File password = new File("passwords.txt");
+        File password = new File("/Users/simon/Library/CloudStorage/OneDrive-PlanoISD/9/APCSA/APCSA/passwords.txt");
         Scanner infile = new Scanner(System.in);
         PrintWriter outfile = new PrintWriter(password);
         int var = 0;

@@ -10,7 +10,7 @@ import java.io.IOException;
  */
 public class M04_03FamilyStructure {
     public static void main(String [ ] args) throws IOException {
-        File family = new File("family.txt");
+        File family = new File("/Users/simon/Library/CloudStorage/OneDrive-PlanoISD/9/APCSA/APCSA/family.txt");
         Scanner infile = new Scanner(family);
         int BB, BG, GG, families;
         BB = BG = GG = families = 0;

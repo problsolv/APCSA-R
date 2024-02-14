@@ -7,7 +7,7 @@
  */
 public class M09_07CaesarDecrypter extends M09_07CaesarEncrypter {
     private static int myKey;
-    private static final char[] cipherbet = new char[26];
+    private static final char[] CIPHERBET = new char[26];
 
     public M09_07CaesarDecrypter(int key) {
         super(-key);
@@ -16,12 +16,12 @@ public class M09_07CaesarDecrypter extends M09_07CaesarEncrypter {
 
     public void setCipherbet() {
         for (int i = 0; i < 26; i++) {
-            cipherbet[i] = (char)(((alphabet[i] + myKey) - 97) % 26 + 97);
+            CIPHERBET[i] = (char)(((ALPHABET[i] + myKey) - 97) % 26 + 97);
         }
     }
 
     public void printCipherbet() {
-        for (char letter : cipherbet) {
+        for (char letter : CIPHERBET) {
             System.out.print(letter + " ");
         }
         System.out.println();

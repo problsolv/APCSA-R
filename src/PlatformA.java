@@ -5,7 +5,7 @@ public class PlatformA {
     static long step = 0;
     public static void main(String [ ] args) {
         for (int i = 0; i <= 50; i++) {
-            System.out.printf("f1(%2d) = %10d -- step = %12d%10s(%2d) = %10d -- step = %2d%n", i, f1(i), step, "f2", i, f2(i), step);
+            System.out.printf("f1(%2d) = %11d -- step = %12d%10s(%2d) = %11d -- step = %2d%n", i, f1(i), step, "f2", i, f2(i), step);
             step = 0;
         }
     }

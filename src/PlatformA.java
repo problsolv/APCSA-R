@@ -16,7 +16,6 @@ public class PlatformA {
     }
 
     static long f2(int n) {
-        step = 0;
         if (n <= 1) {
             step++;
             return n;

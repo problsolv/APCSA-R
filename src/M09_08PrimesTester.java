@@ -14,7 +14,12 @@ public class M09_08PrimesTester {
         int max = sc.nextInt();
         if (min >= max) {
             System.out.println("Your minimum value must be less than your maximum value.");
-        } else {
+            main(args);
+        } else if (min < 0) {
+            System.out.println("Your minimum value must be positive.");
+            main(args);
+        }
+        else {
             M09_08Primes primes = new M09_08Primes(min, max);
             primes.filter();
             System.out.println(primes);

@@ -1,18 +1,21 @@
 package cf;
+
 import java.io.*;
 import java.util.*;
-public class CFShortSubstring {
+public class CFSquareString {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-        int a = sc.nextInt();
-        for (int i = 0; i < a; i++) {
+        int n = sc.nextInt();
+        for (int i = 0; i < n; i++) {
             String s = sc.next();
-            StringBuilder t = new StringBuilder(s.substring(0, 2));
-            for (int j = 3; j < s.length(); j+=2) t.append(s.charAt(j));
-            System.out.println(t);
+            if (s.length() % 2 == 1) {
+                System.out.println("NO");
+                continue;
+            }
+            if (s.substring(0, s.length() / 2).equals(s.substring(s.length() / 2))) System.out.println("YES");
+            else System.out.println("NO");
         }
     }
-
     static class FastScanner {
         BufferedReader br;
         StringTokenizer st;

@@ -1,16 +1,27 @@
-package cf;
 import java.io.*;
 import java.util.*;
-public class CFShortSubstring {
-    public static void main(String [ ] args) {
+
+public class CFBooks {
+    public static void main(String[] args) {
         FastScanner sc = new FastScanner(System.in);
-        int a = sc.nextInt();
-        for (int i = 0; i < a; i++) {
-            String s = sc.next();
-            StringBuilder t = new StringBuilder(s.substring(0, 2));
-            for (int j = 3; j < s.length(); j+=2) t.append(s.charAt(j));
-            System.out.println(t);
+        int n = sc.nextInt();
+        int t = sc.nextInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++) a[i] = sc.nextInt();
+
+        int start = 0, end = 0, sum = 0, maxBooks = 0;
+        while (end < n) {
+            while (end < n && sum + a[end] <= t) {
+                sum += a[end];
+                end++;
+            }
+            maxBooks = Math.max(maxBooks, end - start);
+            while (start < n && sum > t) {
+                sum -= a[start];
+                start++;
+            }
         }
+        System.out.println(maxBooks);
     }
 
     static class FastScanner {

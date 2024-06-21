@@ -1,18 +1,19 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CFShortSubstring {
+public class CFSale {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-        int a = sc.nextInt();
-        for (int i = 0; i < a; i++) {
-            String s = sc.next();
-            StringBuilder t = new StringBuilder(s.substring(0, 2));
-            for (int j = 3; j < s.length(); j+=2) t.append(s.charAt(j));
-            System.out.println(t);
+        int[] a = new int[sc.nextInt()];
+        int l = sc.nextInt(), t = 0;
+        for (int i = 0; i < a.length; i++) a[i] = sc.nextInt();
+        Arrays.sort(a);
+        for (int i = 0; i < l; i++) {
+            if (a[i] < 0) t -= a[i];
+            else break;
         }
+        System.out.println(t);
     }
-
     static class FastScanner {
         BufferedReader br;
         StringTokenizer st;

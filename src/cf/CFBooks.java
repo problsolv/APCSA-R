@@ -1,27 +1,24 @@
+package cf;
+
 import java.io.*;
 import java.util.*;
-
 public class CFBooks {
     public static void main(String[] args) {
         FastScanner sc = new FastScanner(System.in);
-        int n = sc.nextInt();
+        int[] a = new int[sc.nextInt()];
         int t = sc.nextInt();
-        int[] a = new int[n];
-        for (int i = 0; i < n; i++) a[i] = sc.nextInt();
+        for (int i = 0; i < a.length; i++) a[i] = sc.nextInt();
 
-        int start = 0, end = 0, sum = 0, maxBooks = 0;
-        while (end < n) {
-            while (end < n && sum + a[end] <= t) {
-                sum += a[end];
-                end++;
-            }
-            maxBooks = Math.max(maxBooks, end - start);
-            while (start < n && sum > t) {
+        int start = 0, sum = 0, max = 0;
+        for (int i = 0; i < a.length; i++) {
+            sum += a[i];
+            while (sum > t) {
                 sum -= a[start];
                 start++;
             }
+            max = Math.max(max, i - start + 1);
         }
-        System.out.println(maxBooks);
+        System.out.println(max);
     }
 
     static class FastScanner {

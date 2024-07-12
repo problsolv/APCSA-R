@@ -1,12 +1,23 @@
 package cf;
 import java.io.*;
 import java.util.*;
-public class CF {
+public class CFSpellCheck {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-        PrintWriter pw = new PrintWriter(System.out);
-
-        pw.close();
+        int t = sc.nextInt();
+        for (int i = 0; i < t; i++) {
+            int l = sc.nextInt();
+            String s = sc.next();
+            if (l != 5) {
+                System.out.println("NO");
+                continue;
+            }
+            char[] c = s.toCharArray();
+            Arrays.sort(c);
+            String sorted = new String(c);
+            if (sorted.equals("Timru")) System.out.println("YES");
+            else System.out.println("NO");
+        }
     }
     static class FastScanner {
         BufferedReader br;

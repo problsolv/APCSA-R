@@ -21,12 +21,7 @@ public class M09_07CaesarEncrypter {
     }
 
     public static void encrypt(String word) {
-        char[] message = word.toCharArray();
-        StringBuilder encrypted = new StringBuilder();
-        for (char c : message) {
-            encrypted.append((char)(((c - 97 + myKey) % 26) + 97));
-        }
-        System.out.print(encrypted + " ");
+        encrypt(word, myKey);
     }
 
     public static void encrypt(String word, int key) {

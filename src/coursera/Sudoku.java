@@ -1,5 +1,6 @@
 package coursera;
 import java.util.Scanner;
+import java.io.PrintWriter;
 public class Sudoku {
     static final int N = 9;
     static final int[][] GRID = new int[N][N];
@@ -92,11 +93,13 @@ public class Sudoku {
     }
 
     static void print() {
+        PrintWriter pw = new PrintWriter(System.out);
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++)
-                System.out.print(GRID[i][j] + " ");
-            System.out.println();
+                pw.print(GRID[i][j] + " ");
+            pw.println();
         }
+        pw.close();
     }
 
     public static void main(String[] args) {
@@ -110,5 +113,6 @@ public class Sudoku {
 
         if (solveSudoku(0, 0)) print();
         else System.out.println("No Solution exists");
+        sc.close();
     }
 }

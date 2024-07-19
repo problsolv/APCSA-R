@@ -7,7 +7,7 @@ import java.util.*;
  *      initialize, shuffle, deal, and check if empty.
  */
 public class M10_08Deck {
-   private final List<M10_08Card> cards;    //contains all the cards in the deck
+   private final List<M10_08Card> CARDS;    //contains all the cards in the deck
 
    private int size;   // size is the number of not-yet-dealt cards.
                        // Cards are dealt from the top (the highest index) down.
@@ -22,13 +22,13 @@ public class M10_08Deck {
     * @param values is an array containing all the card point values.
     */
    public M10_08Deck(String[] ranks, String[] suits, int[] values) {
-      cards = new ArrayList<>();
+      CARDS = new ArrayList<>();
       for (int i = ranks.length - 1; i >= 0; i--) {
          for (int j = suits.length - 1; j >= 0; j--) {
-            cards.add(new M10_08Card(ranks[i], suits[j], values[i]));
+            CARDS.add(new M10_08Card(ranks[i], suits[j], values[i]));
          }
       }
-      size = cards.size();
+      size = CARDS.size();
    }
 
    /**
@@ -36,7 +36,7 @@ public class M10_08Deck {
     * @return true if this deck is empty, false otherwise.
     */
    public boolean isEmpty() {
-      return cards.isEmpty();
+      return CARDS.isEmpty();
    }
 
    /**
@@ -67,7 +67,7 @@ public class M10_08Deck {
          return null;
       }
       size--;
-      return cards.get(size);
+      return CARDS.get(size);
    }
 
    /**
@@ -79,7 +79,7 @@ public class M10_08Deck {
       StringBuilder rtn = new StringBuilder("size = " + size + "\nUndealt cards: \n");
 
       for (int k = size - 1; k >= 0; k--) {
-         rtn.append(cards.get(k));
+         rtn.append(CARDS.get(k));
          if (k != 0) {
             rtn.append(", ");
          }
@@ -89,12 +89,12 @@ public class M10_08Deck {
       }
 
       rtn.append("\nDealt cards: \n");
-      for (int k = cards.size() - 1; k >= size; k--) {
-         rtn.append(cards.get(k));
+      for (int k = CARDS.size() - 1; k >= size; k--) {
+         rtn.append(CARDS.get(k));
          if (k != size) {
             rtn.append(", ");
          }
-         if ((k - cards.size()) % 2 == 0) {
+         if ((k - CARDS.size()) % 2 == 0) {
             rtn.append("\n");
          }
       }

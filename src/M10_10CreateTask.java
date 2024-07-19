@@ -32,13 +32,13 @@ public class M10_10CreateTask {
         else isNegative = false; // Make the number non-negative
         if (bool) { // bool true -> Convert a number from decimal to any base
             int number = Integer.parseInt(num); // Parse the number into an int
-            char[] ch = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
+            final char[] CH = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B',
                     'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
                     'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}; // Array for each ASCII value from 0 to Z
             StringBuilder str = new StringBuilder(); // Creates the return value
             while (number > 0) { // Loop to convert each character of the ASCII table
                 int remainder = number % base; // The number's remainder when divided by the base
-                str.insert(0, ch[remainder]); // Start creating the number from the least digit value to the greatest
+                str.insert(0, CH[remainder]); // Start creating the number from the least digit value to the greatest
                 number /= base; // Divide the number by the base
             }
             if (str.toString().isEmpty()) return "0"; // Checks if the number is 0

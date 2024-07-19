@@ -1,15 +1,15 @@
 import java.io.*;
 import java.util.*;
 public class cowqueue {
-    static class Pair implements Comparator<Pair> {
+    static class Cow implements Comparator<Cow> {
         int arrive, time;
-        Pair(int arrive, int time) {
+        Cow(int arrive, int time) {
             this.arrive = arrive;
             this.time = time;
         }
 
         @Override
-        public int compare(Pair o1, Pair o2) {
+        public int compare(Cow o1, Cow o2) {
             return o1.arrive - o2.arrive;
         }
     }
@@ -21,16 +21,14 @@ public class cowqueue {
         Scanner sc = new Scanner(System.in);
         PrintWriter pw = new PrintWriter(System.out);
         int n = sc.nextInt();
-        Pair[] cows = new Pair[n];
+        Cow[] cows = new Cow[n];
         for (int i = 0; i < n; i++) {
-            cows[i] = new Pair(sc.nextInt(), sc.nextInt());
+            cows[i] = new Cow(sc.nextInt(), sc.nextInt());
         }
-        Arrays.sort(cows, new Pair(0, 0));
+        Arrays.sort(cows, new Cow(0, 0));
         int time = 0;
         for (int i = 0; i < n; i++) {
-            if (time <= cows[i].arrive) {
-                time = cows[i].arrive + cows[i].time;
-            }
+            if (time <= cows[i].arrive) time = cows[i].arrive + cows[i].time;
             else time += cows[i].time;
         }
         pw.println(time);

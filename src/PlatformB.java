@@ -8,8 +8,9 @@ public class PlatformB {
         int n = 78;
         Arrays.sort(arr);
         for (Integer i : arr) {
-            if (binarySearch(arr, n + i) > -1) {
-                System.out.println("(" + i + ", " + (n + i) + ")");
+            int b = binarySearch(arr, n + i);
+            if (b != -1) {
+                System.out.println("(" + i + ", " + arr[b] + ")");
                 return;
             }
         }

@@ -4,9 +4,9 @@ import java.util.*;
 public class CF {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
-        PrintWriter pw = new PrintWriter(System.out);
+        PrintWriter out = new PrintWriter(System.out);
 
-        pw.close();
+        out.close();
     }
     static class FastScanner {
         BufferedReader br;

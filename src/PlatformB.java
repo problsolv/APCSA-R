@@ -1,28 +1,28 @@
 /**
  * TESTING PLATFORM B
  */
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 public class PlatformB {
     public static void main(String[] args) {
-        String s1 = "anagram", s2 = "grammar";
-        int k = 3;
-        System.out.println(isAnagram(s1, s2, k) ? "YES" : "NO");
-    }
-
-    static boolean isAnagram(String s1, String s2, int k) {
-        if (s1.length() != s2.length()) return false;
-        Map<Character, Integer> map = new HashMap<>();
-        for (char c : s1.toCharArray()) {
-            map.put(c, map.getOrDefault(c, 0) + 1);
+        int[] arr = {1, 6, 3, 9, 2, 10};
+        int[][] result = findProductOfTwoPairs(arr);
+        for (int[] ints : result) {
+            System.out.println(Arrays.toString(ints));
         }
-        //System.out.println(map);
-        for (char c : s2.toCharArray()) {
-            if (map.getOrDefault(c, 0) != 0) {
-                map.put(c, map.get(c) - 1);
+    }
+    static int[][] findProductOfTwoPairs(int[] arr) {
+        Map<Integer, Integer[]> map = new HashMap<>();
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                int product = arr[i] * arr[j];
+                if (map.containsKey(product)) {
+                    Integer[] pair = map.get(product);
+                    return new int[][]{{pair[0], pair[1]}, {arr[i], arr[j]}};
+                } else {
+                    map.put(product, new Integer[]{arr[i], arr[j]});
+                }
             }
         }
-        //System.out.println(map);
-        return map.values().stream().mapToInt(i->i).sum() <= k;
+        return new int[][]{};
     }
 }

@@ -1,22 +1,43 @@
 package cf;
+import java.io.*;
 import java.util.*;
 public class CFRegistration {
     public static void main(String [ ] args) {
-        Scanner sc = new Scanner(System.in);
-        Map<String, Integer> dataBase = new HashMap<>();
-        int testCases = sc.nextInt();
-        for(int i = 0; i < testCases; i++){
-            String input = sc.next();
-            if(dataBase.containsKey(input)){
-                int x = dataBase.get(input);
-                x++;
-                dataBase.put(input, x);
-                System.out.println(input+x);
+        FastScanner sc = new FastScanner(System.in);
+        PrintWriter out = new PrintWriter(System.out);
+        Map<String, Integer> db = new HashMap<>();
+        int t = sc.nextInt();
+        while (t --> 0) {
+            String s = sc.next();
+            if (db.getOrDefault(s, 0) == 0) {
+                out.println("OK");
+                db.put(s, 1);
+            } else {
+                out.println(s + db.get(s));
+                db.put(s, db.get(s) + 1);
             }
-            else{
-                System.out.println("OK");
-                dataBase.put(input, 0);
+        }
+        out.close();
+    }
+    static class FastScanner {
+        BufferedReader br;
+        StringTokenizer st;
+        FastScanner(InputStream i) { br = new BufferedReader(new InputStreamReader(i)); }
+        String next() {
+            while (st == null || !st.hasMoreElements()) {
+                try { st = new StringTokenizer(br.readLine()); }
+                catch (IOException e) { e.printStackTrace(); }
             }
+            return st.nextToken();
+        }
+        int nextInt() { return Integer.parseInt(next()); }
+        long nextLong() { return Long.parseLong(next()); }
+        double nextDouble() { return Double.parseDouble(next()); }
+        String nextLine() {
+            String str = "";
+            try { str = br.readLine(); }
+            catch (IOException e) { e.printStackTrace(); }
+            return str;
         }
     }
 }

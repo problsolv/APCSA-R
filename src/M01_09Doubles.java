@@ -11,7 +11,7 @@ public class M01_09Doubles {
 
         // Addition
         System.out.println("Addition");
-        System.out.println(int1 + " + " + int2 + " = " + (25 + 9));
+        System.out.println(int1 + " + " + int2 + " = " + (int1 + int2));
         System.out.println(doub1 + " + " + doub2 + " + 10.00 = " + (doub1 + doub2 + 10.00));
         System.out.println();
 
@@ -29,7 +29,7 @@ public class M01_09Doubles {
 
         // Division
         System.out.println("Division");
-        System.out.println(int2 + " / " + int1 + " = " + (9 / 25));
+        System.out.println(int2 + " / " + int1 + " = " + (int2 / int1));
         System.out.println(doub1 + " / 10.00 = " + (doub1 / 10.00));
         System.out.println();
 

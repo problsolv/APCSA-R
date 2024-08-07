@@ -1,28 +1,42 @@
 /**
  * TESTING PLATFORM B
  */
-import java.util.*;
+import java.util.Stack;
 public class PlatformB {
-    public static void main(String[] args) {
-        int[] arr = {1, 6, 3, 9, 2, 10};
-        int[][] result = findProductOfTwoPairs(arr);
-        for (int[] ints : result) {
-            System.out.println(Arrays.toString(ints));
-        }
+    public static void main(String [ ] args) {
+        System.out.println(infixToPostfix("a+b*(c^d-e)^(f+g*h)-i"));
     }
-    static int[][] findProductOfTwoPairs(int[] arr) {
-        Map<Integer, Integer[]> map = new HashMap<>();
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = i + 1; j < arr.length; j++) {
-                int product = arr[i] * arr[j];
-                if (map.containsKey(product)) {
-                    Integer[] pair = map.get(product);
-                    return new int[][]{{pair[0], pair[1]}, {arr[i], arr[j]}};
-                } else {
-                    map.put(product, new Integer[]{arr[i], arr[j]});
+
+    static String infixToPostfix(String str) {
+        StringBuilder result = new StringBuilder();
+        Stack<Character> stack = new Stack<>();
+        for (char c : str.toCharArray()) {
+            if (Character.isLetterOrDigit(c)) {
+                result.append(c);
+            } else if (c == '(') {
+                stack.push(c);
+            } else if (c == ')') {
+                while (!stack.isEmpty() && stack.peek() != '(') {
+                    result.append(stack.pop());
                 }
+                stack.pop();
+            } else {
+                while (!stack.isEmpty() && precedence(c) <= precedence(stack.peek())) {
+                    result.append(stack.pop());
+                }
+                stack.push(c);
             }
         }
-        return new int[][]{};
+        while (!stack.isEmpty()) {
+            result.append(stack.pop());
+        }
+        return result.toString();
+    }
+
+    static int precedence(char c) {
+        if (c == '^') return 2;
+        else if (c == '+' || c == '-') return 0;
+        else if (c == '*' || c == '/') return 1;
+        return -1;
     }
 }

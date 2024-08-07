@@ -11,17 +11,17 @@ public class PlatformA {
         }
     }
 
-    static long f1(int n) {
+    static long f1(final int n) {
         step1++;
         return (n <= 1) ? n : f1(n - 1) + f1(n - 2);
     }
 
-    static long f2(int n) {
+    static long f2(final int n) {
         if (n <= 1) {
             step2++;
             return n;
         }
-        long[] fib = new long[n + 1];
+        final long[] fib = new long[n + 1];
         for (int i = 0; i <= n; i++) {
             step2++;
             fib[i] = (i <= 1) ? i : fib[i - 1] + fib[i - 2];

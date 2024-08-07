@@ -17,13 +17,13 @@ public class M01_09Doubles {
 
         // Subtraction
         System.out.println("Subtraction");
-        System.out.println("11 - " + int2 + " - " + int1 + " = " + (11 - 9 - 25));
+        System.out.println("11 - " + int2 + " - " + int1 + " = " + (11 - int2 - int1));
         System.out.println(doub2 + " - 10.00 = " + (doub2 - 10.00));
         System.out.println();
 
         // Multiplication
         System.out.println("Multiplication");
-        System.out.println(int1 + " * " + int2 + " = " + (25 * 9));
+        System.out.println(int1 + " * " + int2 + " = " + (int1 * int2));
         System.out.println(doub2 + " * 10.00 * 10.00 = " + (doub2 * 10.00 * 10.00));
         System.out.println();
 
@@ -35,7 +35,7 @@ public class M01_09Doubles {
 
         // Modulus
         System.out.println("Modulus");
-        System.out.println("11 mod " + int2 + " = " + (11 % 9));
+        System.out.println("11 mod " + int2 + " = " + (11 % int2));
         System.out.println("10.00 mod " + doub2 + " = " + (10.00 % doub2));
         System.out.println();
 

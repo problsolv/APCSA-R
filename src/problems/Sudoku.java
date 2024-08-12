@@ -82,8 +82,7 @@ public class Sudoku {
         // Check if we find the same num
         // in the particular 3*3
         // matrix, we return false
-        int startRow = row - row % 3, startCol
-                = col - col % 3;
+        int startRow = row - row % 3, startCol = col - col % 3;
         for (int i = 0; i < 3; i++)
             for (int j = 0; j < 3; j++)
                 if (GRID[i + startRow][j + startCol] == num)

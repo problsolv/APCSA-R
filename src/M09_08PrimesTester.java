@@ -22,7 +22,7 @@ public class M09_08PrimesTester {
         else {
             M09_08Primes primes = new M09_08Primes(min, max);
             primes.filter();
-            System.out.println(primes);
+            System.out.print(primes);
         }
     }
 }

@@ -17,7 +17,7 @@ public class M09_08Primes {
     public void filter() {
         for (int i = min; i <= max; i++) {
             boolean isPrime = i != 1;
-            for (int j = 2; j <= i / 2; j++) {
+            for (int j = 2; j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
                     isPrime = false;
                     break;

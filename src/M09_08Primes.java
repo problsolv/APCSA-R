@@ -6,16 +6,16 @@ import java.util.ArrayList;
  * (Implementation Class)
  */
 public class M09_08Primes {
-    private final int min, max;
-    private final ArrayList<Integer> primes = new ArrayList<>();
+    private final int MIN, MAX;
+    private final ArrayList<Integer> PRIMES = new ArrayList<>();
 
     public M09_08Primes(int min, int max) {
-        this.min = min;
-        this.max = max;
+        this.MIN = min;
+        this.MAX = max;
     }
 
     public void filter() {
-        for (int i = min; i <= max; i++) {
+        for (int i = MIN; i <= MAX; i++) {
             boolean isPrime = i != 1;
             for (int j = 2; j <= Math.sqrt(i); j++) {
                 if (i % j == 0) {
@@ -23,16 +23,16 @@ public class M09_08Primes {
                     break;
                 }
             }
-            if (isPrime) primes.add(i);
+            if (isPrime) PRIMES.add(i);
         }
     }
 
     public String toString() {
-        if (primes.isEmpty()) {
-            return "There are no prime numbers between " + min + " and " + max + ".";
+        if (PRIMES.isEmpty()) {
+            return "There are no prime numbers between " + MIN + " and " + MAX + ".";
         }
-        StringBuilder str = new StringBuilder("There are " + primes.size() + " prime numbers between " + min + " and " + max + ". They are:\n");
-        for (int prime : primes) {
+        StringBuilder str = new StringBuilder("There are " + PRIMES.size() + " prime numbers between " + MIN + " and " + MAX + ". They are:\n");
+        for (int prime : PRIMES) {
             str.append(prime).append("\n");
         }
         return str.toString();

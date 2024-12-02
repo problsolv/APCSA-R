@@ -6,8 +6,8 @@
  */
 public class M10_08Card {
 
-   private final String suit, rank;      // the suit and rank of the card
-   private final int pointValue;   // the point value of the card
+   private final String SUIT, RANK;      // the suit and rank of the card
+   private final int POINT_VALUE;   // the point value of the card
 
     /**
     * Creates a new Card instance.
@@ -20,9 +20,9 @@ public class M10_08Card {
     *                  containing the point value of the card
     */
    public M10_08Card(String cardRank, String cardSuit, int cardPointValue) {
-      suit = cardSuit;
-      rank = cardRank;
-      pointValue = cardPointValue;
+      SUIT = cardSuit;
+      RANK = cardRank;
+      POINT_VALUE = cardPointValue;
    }
 
    /**
@@ -30,7 +30,7 @@ public class M10_08Card {
     * @return this Card's suit.
     */
     public String suit() {
-       return suit;
+       return SUIT;
     }
 
    /**
@@ -38,7 +38,7 @@ public class M10_08Card {
     * @return this Card's rank.
     */
    public String rank() {
-      return rank;
+      return RANK;
    }
 
     /**
@@ -46,7 +46,7 @@ public class M10_08Card {
     * @return this Card's point value.
     */
    public int pointValue() {
-      return pointValue;
+      return POINT_VALUE;
    }
 
    /** Compare this card with the argument.
@@ -71,6 +71,6 @@ public class M10_08Card {
     */
    @Override
    public String toString() {
-      return rank + " of " + suit + " (point value = " + pointValue + ")";
+      return RANK + " of " + SUIT + " (point value = " + POINT_VALUE + ")";
    }
 }

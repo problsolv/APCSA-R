@@ -9,18 +9,18 @@ public class M09_08PrimesTester {
     public static void main(String [ ] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Please enter a minimum value: ");
-        int min = sc.nextInt();
+        int MIN = sc.nextInt();
         System.out.print("Please enter a maximum value: ");
-        int max = sc.nextInt();
-        if (min >= max) {
+        int MAX = sc.nextInt();
+        if (MIN >= MAX) {
             System.out.println("Your minimum value must be less than your maximum value.");
             main(args);
-        } else if (min < 0) {
+        } else if (MIN < 0) {
             System.out.println("Your minimum value must be positive.");
             main(args);
         }
         else {
-            M09_08Primes primes = new M09_08Primes(min, max);
+            M09_08Primes primes = new M09_08Primes(MIN, MAX);
             primes.filter();
             System.out.print(primes);
         }

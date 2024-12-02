@@ -12,8 +12,8 @@ public class M10_05Fibonacci {
         while (true) {
             System.out.print("\nWhich value of the Fibonacci Sequence do you wish to know? ");
             int value = sc.nextInt();
-            if (value > 45 || value < 1) {
-                System.out.println("The value must be between 1 and 45 to prevent an overload.");
+            if (value > 47 || value < 1) {
+                System.out.println("The value must be between 1 and 47 to prevent an overload.");
                 continue;
             }
             System.out.println("Term " + value + " of the Fibonacci Sequence is " + fibonacci(value));

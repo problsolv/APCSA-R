@@ -16,13 +16,13 @@ public class M10_10CreateTask {
     }
 
     private static int getValue(char ch) { // Method to identify the value of each digit 0-Z
-        if (ch >= 'A' && ch <= 'Z') return (int) ch - 55; // If the character is between A and Z, return itself minus 55:
+        if (ch >= 'A' && ch <= 'Z') return (int) ch - 'A' + 10; // If the character is between A and Z, return itself minus 'A':
         // A represents 10 because A's ASCII value is 65 -> 65 - 55 = 10
         // B represents 11 because B's ASCII value is 66 -> 66 - 55 = 11
         // C represents 12 because C's ASCII value is 67 -> 67 - 55 = 12
         // ...
         // Z represents 35 because Z's ASCII value is 90 -> 90 - 55 = 35
-        return Integer.parseInt(String.valueOf(ch)); // If the character is not a letter, it must be an integer 0-9
+        return ch - '0'; // If the character is not a letter, it must be an integer 0-9, subtract it from '0' to get its value
     }
 
     static String convert(boolean bool) { // Converting method

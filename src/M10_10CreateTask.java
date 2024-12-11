@@ -6,8 +6,8 @@ import java.util.Scanner; // Imports Scanner library
  * Helps users convert numbers from base to base.
  */
 public class M10_10CreateTask {
-    static int base; // base instance variable
-    static String num; // num instance variable
+    static int base; // base class variable
+    static String num; // num class variable
 
     private static boolean InvalidBase() { // Invalid base checker method
         boolean bool = base < 2 || base > 36; // Checks if the base is between 2 and 36, inclusive

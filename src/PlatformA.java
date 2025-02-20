@@ -21,11 +21,11 @@ public class PlatformA {
             step2++;
             return n;
         }
-        final long[] fib = new long[n + 1];
+        final long[] FIB = new long[n + 1];
         for (int i = 0; i <= n; i++) {
             step2++;
-            fib[i] = (i <= 1) ? i : fib[i - 1] + fib[i - 2];
+            FIB[i] = (i <= 1) ? i : FIB[i - 1] + FIB[i - 2];
         }
-        return fib[n];
+        return FIB[n];
     }
 }

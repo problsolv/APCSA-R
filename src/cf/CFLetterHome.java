@@ -1,0 +1,43 @@
+package cf;
+
+import java.io.*;
+import java.util.*;
+
+public class CFLetterHome {
+    public static void main(String [ ] args) {
+        FastScanner sc = new FastScanner(System.in);
+        PrintWriter out = new PrintWriter(System.out);
+        int n = sc.nextInt();
+        while (n-->0) {
+            int m = sc.nextInt(), s = sc.nextInt();
+            int[] a = new int[m];
+            for (int i = 0; i < m; i++) {
+                a[i] = sc.nextInt();
+            }
+            out.println(Math.min(Math.abs(s - a[0]), Math.abs(s - a[m - 1])) + a[m - 1] - a[0]);
+        }
+
+        out.close();
+    }
+    static class FastScanner {
+        BufferedReader br;
+        StringTokenizer st;
+        FastScanner(InputStream i) { br = new BufferedReader(new InputStreamReader(i)); }
+        String next() {
+            while (st == null || !st.hasMoreElements()) {
+                try { st = new StringTokenizer(br.readLine()); }
+                catch (IOException e) { e.printStackTrace(); }
+            }
+            return st.nextToken();
+        }
+        int nextInt() { return Integer.parseInt(next()); }
+        long nextLong() { return Long.parseLong(next()); }
+        double nextDouble() { return Double.parseDouble(next()); }
+        String nextLine() {
+            String str = "";
+            try { str = br.readLine(); }
+            catch (IOException e) { e.printStackTrace(); }
+            return str;
+        }
+    }
+}

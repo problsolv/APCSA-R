@@ -1,24 +1,22 @@
 package cf;
+
 import java.io.*;
-import java.util.StringTokenizer;
-public class CFCandies {
+import java.util.*;
+
+public class CFCandies2 {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
-        int a = sc.nextInt();
-        int[] arr = new int[a];
-        for (int i = 0; i < a; i++) {
-            arr[i] = sc.nextInt();
-            if (arr[i] % 2 == 0) {
-                if (arr[i] / 2 == 1) arr[i] = 0;
-                else arr[i] = arr[i] / 2 - 1;
-            }
-            else {
-                if (arr[i] / 2 == 0) arr[i] = 0;
-                else arr[i] = arr[i] / 2;
+        int n = sc.nextInt();
+        while (n-->0) {
+            int m = sc.nextInt();
+            for (int i = 2; i <=30; i++) {
+                if (m % (int)(Math.pow(2, i) - 1) == 0) {
+                    out.println(m / (int)(Math.pow(2,i) - 1));
+                    break;
+                }
             }
         }
-        for (int i : arr) out.println(i);
         out.close();
     }
     static class FastScanner {

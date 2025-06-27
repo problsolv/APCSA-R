@@ -5,7 +5,10 @@ public class CF {
     public static void main(String [ ] args) {
         FastScanner sc = new FastScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
+        int t = sc.nextInt();
+        while (t-->0) {
 
+        }
         out.close();
     }
     static class FastScanner {

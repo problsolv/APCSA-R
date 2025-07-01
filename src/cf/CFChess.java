@@ -1,7 +1,6 @@
 package cf;
-
 import java.io.*;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class CFChess {
     public static void main(String [ ] args) {

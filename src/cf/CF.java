@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 public class CF {
     public static void main(String [ ] args) {
-        FastScanner sc = new FastScanner(System.in);
+        SimonScanner sc = new SimonScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
         int t = sc.nextInt();
         while (t-->0) {
@@ -11,10 +11,10 @@ public class CF {
         }
         out.close();
     }
-    static class FastScanner {
+    static class SimonScanner {
         BufferedReader br;
         StringTokenizer st;
-        FastScanner(InputStream i) { br = new BufferedReader(new InputStreamReader(i)); }
+        SimonScanner(InputStream i) { br = new BufferedReader(new InputStreamReader(i)); }
         String next() {
             while (st == null || !st.hasMoreElements()) {
                 try { st = new StringTokenizer(br.readLine()); }

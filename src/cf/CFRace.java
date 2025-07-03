@@ -8,7 +8,7 @@ public class CFRace {
         SimonScanner sc = new SimonScanner(System.in);
         PrintWriter out = new PrintWriter(System.out);
         int t = sc.nextInt();
-        a: while (t-->0) {
+        while (t-->0) {
             int a = sc.nextInt(), x = sc.nextInt(), y = sc.nextInt();
             out.println(a < x == a < y ? "YES" : "NO");
         }

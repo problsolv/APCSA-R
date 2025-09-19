@@ -18,8 +18,6 @@ public class MaxSum {
             else if (arr[right] + arr[left] < k) left++;
             else right--;
         }
-        left = 0;
-        right = arr.length - 1;
         System.out.println("No such pair found");
     }
 }

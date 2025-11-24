@@ -26,7 +26,6 @@ public class PlatformA {
         }
 
         void pop() {
-            char v = top.val;
             top = top.next;
         }
 

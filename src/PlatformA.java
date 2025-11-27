@@ -66,7 +66,7 @@ public class PlatformA {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Stack stack = new Stack();
-        String st = sc.next();
+        String st = sc.next().replace("67", "");
 
         for (char c : st.toCharArray()) {
 

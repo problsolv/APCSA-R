@@ -4,7 +4,14 @@
 import java.util.Stack;
 public class PlatformB {
     public static void main(String [ ] args) {
-        System.out.println(infixToPostfix("9+5*6-(3+2)/4"));
+        String s = "9+5*6-(3+2)/4";
+        System.out.println(infixToPostfix(s));
+        System.out.println(infixToPrefix(s));
+        /*
+        9+5*6-(3+2)/4
+        -+9*56/+324
+        956*+32+4/-
+         */
     }
 
     static String infixToPostfix(String str) {
@@ -31,6 +38,44 @@ public class PlatformB {
             result.append(stack.pop());
         }
         return result.toString();
+    }
+    static String infixToPrefix(String s) {
+        Stack<Character> st = new Stack<>();
+        StringBuilder result = new StringBuilder();
+
+        // scan from right to left
+        for (int i = s.length() - 1; i >= 0; i--) {
+            char c = s.charAt(i);
+
+            if (Character.isLetterOrDigit(c)) {
+                result.append(c);
+            }
+            else if (c == ')') {
+                st.push(c);
+            }
+            else if (c == '(') {
+                while (!st.isEmpty() && st.peek() != ')') {
+                    result.append(st.pop());
+                }
+                if (!st.isEmpty()) st.pop();
+            }
+            else if (precedence(c) >= 0) {
+                while (!st.isEmpty() && precedence(st.peek()) >= 0 &&
+                        (precedence(st.peek()) > precedence(c) ||
+                                (precedence(st.peek()) == precedence(c) && c == '^'))) {
+                    result.append(st.pop());
+                }
+                st.push(c);
+            }
+        }
+
+        // pop remaining operators
+        while (!st.isEmpty()) {
+            result.append(st.pop());
+        }
+
+        // reverse to get correct prefix
+        return result.reverse().toString();
     }
 
     static int precedence(char c) {

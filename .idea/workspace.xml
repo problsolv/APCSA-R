@@ -328,53 +328,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.CF (1).executor": "Run",
-    "Application.CF (2).executor": "Run",
-    "Application.CF (3).executor": "Run",
-    "Application.CF (4).executor": "Run",
-    "Application.CF.executor": "Run",
-    "Application.CFBoringApartments.executor": "Run",
-    "Application.CFDistracted.executor": "Run",
-    "Application.CFFence.executor": "Run",
-    "Application.CFKn.executor": "Run",
-    "Application.CFMaxGCD.executor": "Run",
-    "Application.CFMinimalSquare.executor": "Run",
-    "Application.CFPanoramix.executor": "Run",
-    "Application.CFPlusOne.executor": "Run",
-    "Application.M04_03FamilyStructure.executor": "Run",
-    "Application.M04_06SecretPasscode.executor": "Run",
-    "Application.M07_03HurricaneTester.executor": "Run",
-    "Application.M10_10CreateTask.executor": "Run",
-    "Application.PlatformA.executor": "Run",
-    "Application.cowfind.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/simon/OneDrive - Plano ISD/9/APCSA/APCSA",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CF (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CF (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CF (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CF (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.CF.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFBoringApartments.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFDistracted.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFFence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFKn.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFMaxGCD.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFMinimalSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFPanoramix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CFPlusOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M04_03FamilyStructure.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M04_06SecretPasscode.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M07_03HurricaneTester.executor&quot;: &quot;Run&quot;,
+    &quot;Application.M10_10CreateTask.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PlatformA.executor&quot;: &quot;Run&quot;,
+    &quot;Application.cowfind.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/simon/OneDrive - Plano ISD/9/APCSA/APCSA&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -384,9 +384,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$USER_HOME$/Library/CloudStorage/OneDrive-PlanoISD/9/APCSA/APCSA/src/cf" />
-      <recent name="$USER_HOME$/Library/CloudStorage/OneDrive-PlanoISD/9/APCSA" />
-      <recent name="$USER_HOME$/Library/CloudStorage/OneDrive-PlanoISD" />
+      <recent name="$PROJECT_DIR$/../../../../OneDrive-PlanoISD/9/APCSA/APCSA/src/cf" />
+      <recent name="$PROJECT_DIR$/../../../../OneDrive-PlanoISD/9/APCSA" />
+      <recent name="$PROJECT_DIR$/../../../../OneDrive-PlanoISD" />
       <recent name="$PROJECT_DIR$/.." />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -395,7 +395,7 @@
       <recent name="cf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.cowfind">
+  <component name="RunManager" selected="Application.PlatformA">
     <configuration name="M04_03FamilyStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="M04_03FamilyStructure" />
       <module name="APCSA" />
@@ -433,11 +433,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlatformA" />
         <item itemvalue="Application.cowfind" />
         <item itemvalue="Application.M07_03HurricaneTester" />
         <item itemvalue="Application.M04_06SecretPasscode" />
         <item itemvalue="Application.M04_03FamilyStructure" />
-        <item itemvalue="Application.PlatformA" />
       </list>
     </recent_temporary>
   </component>
